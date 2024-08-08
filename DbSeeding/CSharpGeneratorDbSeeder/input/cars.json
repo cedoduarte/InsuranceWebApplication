@@ -1,0 +1,2002 @@
+[
+{
+"Id": "1",
+"Model": "2007",
+"Color": "#C0C0C0",
+"Price": "116757.41620677166500000",
+"PlateNumber": "51fd1b09-0e94-4d80-b7da-bdbd8aa21288",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "2",
+"Model": "2000",
+"Color": "#0000FF",
+"Price": "985554.7694941524500000",
+"PlateNumber": "a24557d2-d420-4f26-9256-02db99348495",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "3",
+"Model": "1993",
+"Color": "#0000FF",
+"Price": "529591.9879954729000000",
+"PlateNumber": "e348b127-a5cc-418a-bb35-83dcc959aca6",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "4",
+"Model": "1998",
+"Color": "#000000",
+"Price": "344282.0425267286500000",
+"PlateNumber": "fe898396-ca5d-44ae-9c5f-c3496c6af307",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "5",
+"Model": "2009",
+"Color": "#000000",
+"Price": "618760.0498560178000000",
+"PlateNumber": "97cd277f-69d5-4e1c-bf02-9c6df93cec90",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "6",
+"Model": "2011",
+"Color": "#FAEBD7",
+"Price": "783106.9111875643000000",
+"PlateNumber": "85bf454b-eed3-4793-ac84-153407f0546c",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "7",
+"Model": "2000",
+"Color": "#0000FF",
+"Price": "562017.4735489094500000",
+"PlateNumber": "97097221-032e-40bd-b92f-94f1ef671051",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "8",
+"Model": "1992",
+"Color": "#FAEBD7",
+"Price": "709346.2699616182000000",
+"PlateNumber": "6c73c9ff-6cdb-424f-b8f3-9df424a3b6d7",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "9",
+"Model": "2000",
+"Color": "#F0F8FF",
+"Price": "643155.5517040589500000",
+"PlateNumber": "102bdfbf-5552-45ee-bf5a-5de16f922916",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "10",
+"Model": "2001",
+"Color": "#008000",
+"Price": "448670.3798580354500000",
+"PlateNumber": "c5871467-0e99-4b67-8ed5-3c5e9d8311ee",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "11",
+"Model": "2023",
+"Color": "#0000FF",
+"Price": "682999.5063050001500000",
+"PlateNumber": "c0d22a89-423a-400e-bbea-cd05b5bdac82",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "12",
+"Model": "1996",
+"Color": "#C0C0C0",
+"Price": "756464.565826162000000",
+"PlateNumber": "3e07725f-74b0-4a9f-acf6-6146df57271e",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "13",
+"Model": "2015",
+"Color": "#800000",
+"Price": "351599.7573199442000000",
+"PlateNumber": "5c31ad32-6db3-475e-8e4b-289946cf4309",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "14",
+"Model": "1994",
+"Color": "#008000",
+"Price": "787509.6242573949000000",
+"PlateNumber": "bdfa64d7-c211-4cd1-9393-d53a3083aa1d",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "15",
+"Model": "2016",
+"Color": "#00FF00",
+"Price": "340948.0828361953000000",
+"PlateNumber": "1e1e8b35-ce26-4f0e-bf13-74788967f5d1",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "16",
+"Model": "2018",
+"Color": "#800000",
+"Price": "174965.0014968733000000",
+"PlateNumber": "6ef064a3-1d27-4824-a079-e4a2fe927610",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "17",
+"Model": "2016",
+"Color": "#0000FF",
+"Price": "545850.52283368500000",
+"PlateNumber": "e379c140-b65d-467e-b9b9-ff46626b4ee9",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "18",
+"Model": "2014",
+"Color": "#800080",
+"Price": "78143.92227623798000000",
+"PlateNumber": "25dd2b28-a076-4db6-b4aa-e3c7a2fb11f3",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "19",
+"Model": "2005",
+"Color": "#FFFF00",
+"Price": "509799.1079439323500000",
+"PlateNumber": "0dab538f-7e5b-4d11-87d7-9e199b3de7ef",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "20",
+"Model": "1998",
+"Color": "#008080",
+"Price": "410089.3251460671500000",
+"PlateNumber": "e0deca5e-b267-4cac-8d1c-3e0f60445a5e",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "21",
+"Model": "2022",
+"Color": "#FF0000",
+"Price": "553042.6118071543500000",
+"PlateNumber": "a235b5f3-0868-41be-a08b-e4551fbf66ba",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "22",
+"Model": "2011",
+"Color": "#FAEBD7",
+"Price": "872187.5420393093000000",
+"PlateNumber": "8728319a-83d3-4803-8354-fef9a2df89d0",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "23",
+"Model": "1997",
+"Color": "#F0F8FF",
+"Price": "94857.45139203364000000",
+"PlateNumber": "97181ca2-0ab8-4ea5-b85e-0451e08a3a1d",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "24",
+"Model": "2001",
+"Color": "#00FFFF",
+"Price": "348928.3944404921500000",
+"PlateNumber": "63c9f3e4-1f14-4dd2-86d2-5f67c039b653",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "25",
+"Model": "2003",
+"Color": "#000080",
+"Price": "343067.5705653721500000",
+"PlateNumber": "f98ea196-668e-4313-9169-ddc65cd87a16",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "26",
+"Model": "2009",
+"Color": "#800000",
+"Price": "566208.243019639500000",
+"PlateNumber": "10bbe435-9829-40b7-83d1-27b4cad61dbd",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "27",
+"Model": "1998",
+"Color": "#00FFFF",
+"Price": "505079.9581936099000000",
+"PlateNumber": "6b0c8c97-69d1-422f-a01a-4a9b3c3a1b64",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "28",
+"Model": "1999",
+"Color": "#FF00FF",
+"Price": "395277.8125176420500000",
+"PlateNumber": "e12e8253-5630-4105-9da7-4dc8ce6e4de0",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "29",
+"Model": "1997",
+"Color": "#000000",
+"Price": "772475.0215721050500000",
+"PlateNumber": "aab2e65d-8f86-4d6a-adda-05cb093e95d2",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "30",
+"Model": "2018",
+"Color": "#808080",
+"Price": "914669.0564892181500000",
+"PlateNumber": "397387c3-0995-4d86-a9a5-c81349a8c0fb",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "31",
+"Model": "2015",
+"Color": "#008000",
+"Price": "279405.9986242233000000",
+"PlateNumber": "f67aa237-5ad9-44b3-aeb7-b5b791cfc01c",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "32",
+"Model": "2020",
+"Color": "#008080",
+"Price": "214395.8353182119500000",
+"PlateNumber": "07f9e254-ac60-49e8-92b5-163113e5ee24",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "33",
+"Model": "2017",
+"Color": "#FFFFFF",
+"Price": "176057.4786734320500000",
+"PlateNumber": "00b40176-3211-4b3b-beed-eaee256d233a",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "34",
+"Model": "2019",
+"Color": "#008000",
+"Price": "198539.2666682165500000",
+"PlateNumber": "04e2a76d-ff8b-4b3d-a903-48a0ba02d7f7",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "35",
+"Model": "1992",
+"Color": "#808000",
+"Price": "210265.8830638664000000",
+"PlateNumber": "f1e443c2-206f-4b94-aaf1-c154ce3677b8",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "36",
+"Model": "2020",
+"Color": "#00FFFF",
+"Price": "546916.0729784684500000",
+"PlateNumber": "ebe023b8-37e1-437f-b135-ba9d60df0d79",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "37",
+"Model": "2008",
+"Color": "#000000",
+"Price": "172863.5896495734000000",
+"PlateNumber": "c67f6369-b17f-46ae-9e4d-6a98a6be094b",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "38",
+"Model": "2012",
+"Color": "#008080",
+"Price": "437901.6989909647000000",
+"PlateNumber": "a4537430-4855-45ba-b15f-30923b581e22",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "39",
+"Model": "1990",
+"Color": "#00FA9A",
+"Price": "867561.3238772675500000",
+"PlateNumber": "11813f66-c5b8-41be-9dd8-69755554b25d",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "40",
+"Model": "2003",
+"Color": "#FAEBD7",
+"Price": "740203.2409534442500000",
+"PlateNumber": "62dda72d-438e-40db-9838-e33cf44a95cb",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "41",
+"Model": "2006",
+"Color": "#00FF00",
+"Price": "710336.2353246487000000",
+"PlateNumber": "c8ed791b-72fe-4b25-8504-8aa1c9c98ab9",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "42",
+"Model": "2019",
+"Color": "#008000",
+"Price": "320707.0555127852000000",
+"PlateNumber": "0371f164-a3f3-4391-96ec-38ecd06a2284",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "43",
+"Model": "2017",
+"Color": "#F0F8FF",
+"Price": "206374.0580269511500000",
+"PlateNumber": "44a021ae-856f-41c1-8d1a-3341616e4fef",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "44",
+"Model": "2015",
+"Color": "#FF00FF",
+"Price": "114629.95182420066500000",
+"PlateNumber": "8397b3ce-fc21-419c-b7d3-256bc470d7a5",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "45",
+"Model": "2009",
+"Color": "#FF0000",
+"Price": "746867.7753650684000000",
+"PlateNumber": "7f6676b9-c077-4bf7-8c6b-2dd2e12d2de7",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "46",
+"Model": "1993",
+"Color": "#00FFFF",
+"Price": "753838.8874586273000000",
+"PlateNumber": "46f7834e-608a-4858-8186-9c3c15fd9eb7",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "47",
+"Model": "2002",
+"Color": "#808000",
+"Price": "98174.19699207569000000",
+"PlateNumber": "1d9b9d8d-09ee-495a-bf61-74b34921bef8",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "48",
+"Model": "1990",
+"Color": "#FFFF00",
+"Price": "103575.80299370344000000",
+"PlateNumber": "de5ef325-f4da-4246-bf48-bf6aececde93",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "49",
+"Model": "2020",
+"Color": "#F0F8FF",
+"Price": "728825.1484026793000000",
+"PlateNumber": "3eadf073-e635-45e2-a262-180454323543",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "50",
+"Model": "1992",
+"Color": "#FFFF00",
+"Price": "441361.0754539931500000",
+"PlateNumber": "db843520-1de2-4290-bfc9-e06350945b65",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "51",
+"Model": "2022",
+"Color": "#800080",
+"Price": "835322.7529233357500000",
+"PlateNumber": "f400f8f5-4240-415a-9a9e-fea06fc378b9",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "52",
+"Model": "2004",
+"Color": "#FAEBD7",
+"Price": "257467.1461774094500000",
+"PlateNumber": "d2d7592f-5e72-417e-b75c-ca192fd396c0",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "53",
+"Model": "2019",
+"Color": "#00FFFF",
+"Price": "263930.5802439502000000",
+"PlateNumber": "d20e4473-e189-4945-92d1-b7c75f7217ab",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "54",
+"Model": "2019",
+"Color": "#008000",
+"Price": "250760.2670309697500000",
+"PlateNumber": "621644ba-1a49-4506-a190-f2ff73da53a2",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "55",
+"Model": "2017",
+"Color": "#00FFFF",
+"Price": "827732.7952199088500000",
+"PlateNumber": "7c17a67b-62c9-4786-8060-b1ab951f9b8b",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "56",
+"Model": "2014",
+"Color": "#800000",
+"Price": "867154.1636552318500000",
+"PlateNumber": "dad46526-8de6-4073-9192-060568a19e9d",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "57",
+"Model": "2012",
+"Color": "#FFFF00",
+"Price": "862783.6561250259500000",
+"PlateNumber": "7f1a6ae5-f111-441b-b424-2b74f34fa42e",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "58",
+"Model": "2023",
+"Color": "#800080",
+"Price": "114495.45616304904500000",
+"PlateNumber": "d7056d87-894b-438e-9186-78bdc464737e",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "59",
+"Model": "1997",
+"Color": "#000000",
+"Price": "274392.4995846178500000",
+"PlateNumber": "6c6f51fb-32be-464a-81cd-0dc96e8d3541",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "60",
+"Model": "2006",
+"Color": "#800080",
+"Price": "744272.2394329323500000",
+"PlateNumber": "5e94619e-4f97-470c-9522-952d7fbe9679",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "61",
+"Model": "1998",
+"Color": "#FF00FF",
+"Price": "701409.7633582269000000",
+"PlateNumber": "2ad626fb-dedd-43e8-869b-754130c6940f",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "62",
+"Model": "1996",
+"Color": "#FFFFFF",
+"Price": "581871.3222658905500000",
+"PlateNumber": "bf5c198e-904a-4cab-a3fa-a9b53e565cba",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "63",
+"Model": "2003",
+"Color": "#800000",
+"Price": "555980.8680355851000000",
+"PlateNumber": "f38d9f51-bd77-440e-be35-d1835aa42387",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "64",
+"Model": "2018",
+"Color": "#808000",
+"Price": "898246.0068783938000000",
+"PlateNumber": "2daf2263-8210-470d-a967-2919a7e48b86",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "65",
+"Model": "2008",
+"Color": "#808000",
+"Price": "939874.3344217013000000",
+"PlateNumber": "2be186ed-e333-47d3-a80a-33975f8b5aec",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "66",
+"Model": "1996",
+"Color": "#FF0000",
+"Price": "601831.0154922929000000",
+"PlateNumber": "7f1151c9-8414-45a8-acd6-6fa6d7f7a960",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "67",
+"Model": "1993",
+"Color": "#FF00FF",
+"Price": "235594.8538889656000000",
+"PlateNumber": "9d5a9d7a-5a74-45f3-822b-7aa235ee5a4e",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "68",
+"Model": "2023",
+"Color": "#008080",
+"Price": "785316.4698221806500000",
+"PlateNumber": "c79487b7-ac00-451e-a496-1c7ba1ba2730",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "69",
+"Model": "1991",
+"Color": "#800000",
+"Price": "388549.6754092957000000",
+"PlateNumber": "36757102-636a-4461-bd69-e2f0faf9d073",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "70",
+"Model": "1996",
+"Color": "#008080",
+"Price": "714368.7238553858500000",
+"PlateNumber": "85ae8e6f-a731-490b-953d-28e79c2a08ee",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "71",
+"Model": "1992",
+"Color": "#FF00FF",
+"Price": "302087.2697013964000000",
+"PlateNumber": "87eb0a93-aedf-44b7-a163-2ad4e59dca64",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "72",
+"Model": "2018",
+"Color": "#0000FF",
+"Price": "891274.1234146031500000",
+"PlateNumber": "e9291fc2-3ced-47fe-8411-f3a4a7dead44",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "73",
+"Model": "2001",
+"Color": "#FFFF00",
+"Price": "746061.51408415500000",
+"PlateNumber": "dfe6002b-a609-4f5e-825d-7db630119b16",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "74",
+"Model": "2005",
+"Color": "#00FFFF",
+"Price": "549546.1430088769000000",
+"PlateNumber": "8bd63746-4c6a-40c0-b31f-e43241ac930d",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "75",
+"Model": "1991",
+"Color": "#FFFFFF",
+"Price": "930158.521286776000000",
+"PlateNumber": "0c855663-bae0-4d30-abd2-45be62016829",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "76",
+"Model": "2014",
+"Color": "#008000",
+"Price": "181993.5557872238500000",
+"PlateNumber": "9cd971c7-2ae0-4150-976f-f5b4e0122f5a",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "77",
+"Model": "2007",
+"Color": "#808080",
+"Price": "349529.4875892192000000",
+"PlateNumber": "35a2b2f4-b725-4cc9-aaaf-01245656b0a1",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "78",
+"Model": "2022",
+"Color": "#800080",
+"Price": "534391.4928273288000000",
+"PlateNumber": "78852dee-e8ab-45b6-a0a6-f9c69db26138",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "79",
+"Model": "2001",
+"Color": "#00FFFF",
+"Price": "510067.8481029022000000",
+"PlateNumber": "389c4b2d-39bd-407d-8a06-0f3a5f1af801",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "80",
+"Model": "1998",
+"Color": "#008080",
+"Price": "242170.5900908329500000",
+"PlateNumber": "fab6f232-7f13-49c9-b29e-7b8d7c2b6545",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "81",
+"Model": "1990",
+"Color": "#008080",
+"Price": "871566.3571960587500000",
+"PlateNumber": "78ab19eb-48d7-4fe3-9c52-f015065e1dcc",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "82",
+"Model": "2007",
+"Color": "#F0F8FF",
+"Price": "473069.8933498610500000",
+"PlateNumber": "2e1d1aca-b21b-4be5-9c2b-12065e9d83cf",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "83",
+"Model": "2002",
+"Color": "#C0C0C0",
+"Price": "796440.5948699277500000",
+"PlateNumber": "03acb584-17b4-4061-a3e3-6b648d7ba763",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "84",
+"Model": "2011",
+"Color": "#000080",
+"Price": "327611.5995849039000000",
+"PlateNumber": "aa842dfc-97c9-4d41-a058-9536664e18a7",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "85",
+"Model": "2022",
+"Color": "#0000FF",
+"Price": "600944.9876745471500000",
+"PlateNumber": "5b1938d9-9010-446c-8550-508599bbba0c",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "86",
+"Model": "1992",
+"Color": "#000000",
+"Price": "971056.0824786282000000",
+"PlateNumber": "5afa3259-3f01-494d-8d93-f6ca941ce4f6",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "87",
+"Model": "2018",
+"Color": "#808080",
+"Price": "663166.791814643000000",
+"PlateNumber": "87298069-e72d-413b-aba1-2248500add5d",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "88",
+"Model": "1997",
+"Color": "#000000",
+"Price": "730871.6607304723000000",
+"PlateNumber": "c7e95a0b-5f80-4fff-a9c9-d06f005f9901",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "89",
+"Model": "2011",
+"Color": "#008000",
+"Price": "166352.4658154378000000",
+"PlateNumber": "72eaa709-2b76-42df-aad4-9ee07eeb0900",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "90",
+"Model": "2007",
+"Color": "#800000",
+"Price": "936968.5082284716000000",
+"PlateNumber": "e9f83cf1-e6ab-4094-bc04-15b0d8a5ffea",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "91",
+"Model": "2021",
+"Color": "#C0C0C0",
+"Price": "789712.736033651000000",
+"PlateNumber": "0f118037-61cc-4332-b46f-787cdc4f71ae",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "92",
+"Model": "2001",
+"Color": "#808080",
+"Price": "735240.360293651500000",
+"PlateNumber": "fc818f46-88a6-454d-b84d-9c38ab18ca01",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "93",
+"Model": "2017",
+"Color": "#00FFFF",
+"Price": "536176.4109341595500000",
+"PlateNumber": "5da6b1ab-e107-49b6-8d12-5c058fa31e7f",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "94",
+"Model": "2023",
+"Color": "#FFFF00",
+"Price": "870407.3178862196500000",
+"PlateNumber": "dc26f6f3-bbbf-4a58-8e2a-defc833f63de",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "95",
+"Model": "1997",
+"Color": "#000080",
+"Price": "175581.0668059442000000",
+"PlateNumber": "f56a7cac-c1e0-4df5-8c50-244413543f4e",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "96",
+"Model": "2000",
+"Color": "#FF00FF",
+"Price": "719533.2500201531500000",
+"PlateNumber": "b543d33d-9dd4-47d5-8b48-0e802be13163",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "97",
+"Model": "2020",
+"Color": "#00FFFF",
+"Price": "740801.6576238038000000",
+"PlateNumber": "c0fec430-5bec-43c8-ace2-ff95ccc1dbd2",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "98",
+"Model": "2015",
+"Color": "#800080",
+"Price": "363805.3185334515500000",
+"PlateNumber": "e7ed6974-8787-4ee8-842a-88b8b88f4caa",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "99",
+"Model": "2007",
+"Color": "#00FA9A",
+"Price": "934469.1494204099000000",
+"PlateNumber": "e4083d3a-ff57-4281-a5df-0d6c722ac93c",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "100",
+"Model": "1990",
+"Color": "#808080",
+"Price": "679205.0625860646500000",
+"PlateNumber": "db08aee8-b680-4240-bf71-18e3a2acc950",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "101",
+"Model": "2021",
+"Color": "#008080",
+"Price": "693352.985801189500000",
+"PlateNumber": "b77379ca-102d-4c99-9db4-c5ce3aa68c08",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "102",
+"Model": "2018",
+"Color": "#FF00FF",
+"Price": "506293.1748592139000000",
+"PlateNumber": "2de02ecc-fd6f-459c-a40d-c49379d49143",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "103",
+"Model": "2009",
+"Color": "#00FA9A",
+"Price": "347046.0990574766000000",
+"PlateNumber": "50366eb9-504c-47bc-8f88-2efcb893de91",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "104",
+"Model": "2012",
+"Color": "#00FA9A",
+"Price": "540781.5313039773500000",
+"PlateNumber": "7c407079-608d-4f8b-b349-9a4747da93e9",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "105",
+"Model": "1991",
+"Color": "#00FA9A",
+"Price": "266864.5945690281500000",
+"PlateNumber": "fea76262-eaf2-4850-931e-094bad9508d3",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "106",
+"Model": "2000",
+"Color": "#000080",
+"Price": "214929.6266487199000000",
+"PlateNumber": "d955effa-5e16-4214-a095-765c145a350e",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "107",
+"Model": "2011",
+"Color": "#808000",
+"Price": "214723.664769551500000",
+"PlateNumber": "91c8691d-70ab-4db9-8ffe-5ee9d8a0b3be",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "108",
+"Model": "2008",
+"Color": "#0000FF",
+"Price": "189655.617363072000000",
+"PlateNumber": "dfc6a2c3-bbff-4adb-a906-5cd4e8841479",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "109",
+"Model": "1998",
+"Color": "#FF00FF",
+"Price": "715177.2505260915500000",
+"PlateNumber": "6eb911ed-cfdf-4003-807c-9fdb4daa5fdd",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "110",
+"Model": "2000",
+"Color": "#808080",
+"Price": "252506.9241586274500000",
+"PlateNumber": "842a76f9-1e5d-4a74-8002-766e93506f27",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "111",
+"Model": "1994",
+"Color": "#008000",
+"Price": "851389.5275417738500000",
+"PlateNumber": "76931241-1d35-4a11-9434-8712eb36ea56",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "112",
+"Model": "2020",
+"Color": "#00FFFF",
+"Price": "642188.7282921471500000",
+"PlateNumber": "350f8255-829f-46da-9e48-73005ffbff33",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "113",
+"Model": "2023",
+"Color": "#808080",
+"Price": "844533.6060443267000000",
+"PlateNumber": "fb3bb4ac-b292-481b-884d-89163960eaa6",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "114",
+"Model": "2001",
+"Color": "#808000",
+"Price": "370790.1034005419000000",
+"PlateNumber": "c41d7b27-76ce-4a82-9ffb-15c7f63643e8",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "115",
+"Model": "2018",
+"Color": "#800080",
+"Price": "518366.3567564657500000",
+"PlateNumber": "9ef04ccc-7563-4504-9244-71f57502b064",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "116",
+"Model": "1996",
+"Color": "#FF00FF",
+"Price": "682581.3295124426000000",
+"PlateNumber": "e0d64677-356f-49e3-ae87-b66f4524d2aa",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "117",
+"Model": "2017",
+"Color": "#FFFFFF",
+"Price": "486251.3360626782000000",
+"PlateNumber": "63c0aeff-314c-43d0-afea-29798d30b7bc",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "118",
+"Model": "1997",
+"Color": "#C0C0C0",
+"Price": "523585.1139289044000000",
+"PlateNumber": "185ca864-5fc3-45f5-96d4-57fc2ed75305",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "119",
+"Model": "1993",
+"Color": "#008000",
+"Price": "934749.3368748029500000",
+"PlateNumber": "4dd699ab-fab9-46b1-a34b-6cc50016d99c",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "120",
+"Model": "2007",
+"Color": "#C0C0C0",
+"Price": "792594.288969012500000",
+"PlateNumber": "969c90cd-0bd7-4e8b-a687-aee871ac0d9c",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "121",
+"Model": "2015",
+"Color": "#808000",
+"Price": "617916.3880614457000000",
+"PlateNumber": "46402868-45e7-4ea2-956f-2f032eef9b57",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "122",
+"Model": "2008",
+"Color": "#000080",
+"Price": "525922.2304821643000000",
+"PlateNumber": "c2fad541-afbe-4a86-aada-c6cb906edf92",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "123",
+"Model": "2019",
+"Color": "#800080",
+"Price": "255381.8236953449500000",
+"PlateNumber": "2ff39a70-c104-4801-8c97-42b3128663cf",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "124",
+"Model": "2017",
+"Color": "#00FA9A",
+"Price": "324440.0454081676500000",
+"PlateNumber": "7ec025a0-31a6-402c-af15-5504dc46e6d1",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "125",
+"Model": "1992",
+"Color": "#F0F8FF",
+"Price": "82846.85026908610500000",
+"PlateNumber": "cf73cbd7-cefb-4959-b09b-62a735790454",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "126",
+"Model": "2013",
+"Color": "#FF0000",
+"Price": "980831.5734956970500000",
+"PlateNumber": "6033d007-f9bc-4f1a-bdd2-075f6dc87e56",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "127",
+"Model": "1991",
+"Color": "#00FFFF",
+"Price": "79684.49263569931500000",
+"PlateNumber": "5e217325-a869-45bb-870d-cb6e4927906c",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "128",
+"Model": "1990",
+"Color": "#800000",
+"Price": "472371.2596443366500000",
+"PlateNumber": "65453d48-37a8-432b-919f-c237bcc77132",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "129",
+"Model": "1997",
+"Color": "#FF00FF",
+"Price": "333948.3228386849000000",
+"PlateNumber": "9045749b-3694-4a2c-b686-6c6fb5ac7da1",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "130",
+"Model": "1992",
+"Color": "#008000",
+"Price": "266885.0919454213000000",
+"PlateNumber": "9ce97286-1409-476a-b9e3-d86fa67206df",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "131",
+"Model": "2019",
+"Color": "#008080",
+"Price": "696225.4584148058000000",
+"PlateNumber": "86974663-e39f-4481-b424-05eb7e39267d",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "132",
+"Model": "2015",
+"Color": "#00FFFF",
+"Price": "636474.2468910046500000",
+"PlateNumber": "e63c5c03-2797-4b23-b7cd-165e79bd5808",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "133",
+"Model": "2018",
+"Color": "#000080",
+"Price": "203958.6174087934000000",
+"PlateNumber": "d3469a7d-a227-4ced-a422-0279fb65dad8",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "134",
+"Model": "1993",
+"Color": "#008080",
+"Price": "483266.8791470662500000",
+"PlateNumber": "bc9ef6c9-5015-4ca6-aff0-23aa093898a3",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "135",
+"Model": "2023",
+"Color": "#FF0000",
+"Price": "815602.1047169152500000",
+"PlateNumber": "a197e094-4f1c-462b-a42b-dc12728641a4",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "136",
+"Model": "2015",
+"Color": "#0000FF",
+"Price": "570539.541146862000000",
+"PlateNumber": "599f0f81-b342-4edf-97dd-c961404083da",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "137",
+"Model": "2005",
+"Color": "#000080",
+"Price": "331886.7043074756000000",
+"PlateNumber": "072a89a1-969d-471c-9003-b71e65621d92",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "138",
+"Model": "2003",
+"Color": "#000080",
+"Price": "83679.85546433366500000",
+"PlateNumber": "8927e0f0-0fa7-4789-8a98-5f3651f34205",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "139",
+"Model": "2013",
+"Color": "#800000",
+"Price": "842937.1668479466500000",
+"PlateNumber": "54bf1903-756f-479d-81e7-4654b4128bac",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "140",
+"Model": "2014",
+"Color": "#000000",
+"Price": "99464.86644299953500000",
+"PlateNumber": "b34e6251-a417-44a6-81be-ba3a09695164",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "141",
+"Model": "1996",
+"Color": "#C0C0C0",
+"Price": "502752.2880357792000000",
+"PlateNumber": "b535bd6b-a3f0-48aa-b3d3-454a3c2e0301",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "142",
+"Model": "2012",
+"Color": "#808080",
+"Price": "559649.0665261009000000",
+"PlateNumber": "c5ce0378-1238-46b7-8d61-fec98dfb67f0",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "143",
+"Model": "2019",
+"Color": "#0000FF",
+"Price": "121186.68075472260500000",
+"PlateNumber": "ac741853-793d-4ab8-bb12-78eb8f93ecae",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "144",
+"Model": "2001",
+"Color": "#808080",
+"Price": "305700.7418961985500000",
+"PlateNumber": "ae83e15f-7652-4093-a048-40c134cc1f09",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "145",
+"Model": "1999",
+"Color": "#800080",
+"Price": "370497.8002503973000000",
+"PlateNumber": "40b9c197-e6d1-4c60-aca9-e46b0991f98f",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "146",
+"Model": "1993",
+"Color": "#FFFF00",
+"Price": "156712.650127606000000",
+"PlateNumber": "f5c96e04-c4d7-4f86-acff-44161f636dea",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "147",
+"Model": "2005",
+"Color": "#000000",
+"Price": "968876.3501538717500000",
+"PlateNumber": "aa255b58-6989-4fc8-950e-78e0c6d6b1fd",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "148",
+"Model": "2008",
+"Color": "#FF0000",
+"Price": "276440.9349228387000000",
+"PlateNumber": "99474c45-c1e1-41f2-9c67-2f6a87d2ad8b",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "149",
+"Model": "2004",
+"Color": "#C0C0C0",
+"Price": "296369.6085882303000000",
+"PlateNumber": "26d93cdb-80d3-480c-afe4-aa8bf0f2f4da",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "150",
+"Model": "2022",
+"Color": "#00FF00",
+"Price": "385780.6495175076500000",
+"PlateNumber": "1d21c08b-5a5c-40e5-8b9e-36a4275460f9",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "151",
+"Model": "2021",
+"Color": "#FF00FF",
+"Price": "198985.7710978917500000",
+"PlateNumber": "1af06409-1a61-4b1b-9dff-63a66cf39148",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "152",
+"Model": "2008",
+"Color": "#808000",
+"Price": "423702.7531750067000000",
+"PlateNumber": "5cdcd158-039d-4194-9bfa-866fb583f5e2",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "153",
+"Model": "2000",
+"Color": "#008080",
+"Price": "346641.1804259785500000",
+"PlateNumber": "9f92b591-8819-4ffc-a325-fee331e5ab4a",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "154",
+"Model": "2021",
+"Color": "#00FFFF",
+"Price": "839424.5464787026500000",
+"PlateNumber": "51f4e12e-3b74-46bb-ac16-7da84eead7cd",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "155",
+"Model": "1997",
+"Color": "#C0C0C0",
+"Price": "260513.7823645434000000",
+"PlateNumber": "c4fed68b-0637-4df1-a3ad-9962dfc62254",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "156",
+"Model": "2008",
+"Color": "#800000",
+"Price": "362616.0479474039000000",
+"PlateNumber": "5f838b76-314e-40e4-a313-653e957b280d",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "157",
+"Model": "1991",
+"Color": "#008000",
+"Price": "854592.3267130730500000",
+"PlateNumber": "080b6979-383c-4819-b2ff-dd94d91e48ac",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "158",
+"Model": "2014",
+"Color": "#FF0000",
+"Price": "749655.1837057037000000",
+"PlateNumber": "6e288a10-e044-4a18-b93c-5808d036e9d9",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "159",
+"Model": "1993",
+"Color": "#FAEBD7",
+"Price": "119292.25204756588500000",
+"PlateNumber": "307a0fd6-c662-4759-92ca-436e910ef1ed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "160",
+"Model": "1992",
+"Color": "#FF0000",
+"Price": "67268.33597621971000000",
+"PlateNumber": "e3f8d2b8-0f84-4432-8fbf-591ef3cd23e4",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "161",
+"Model": "1999",
+"Color": "#FFFFFF",
+"Price": "888348.1157218850500000",
+"PlateNumber": "ad2999a1-226d-4ec0-a86f-5005d47e9418",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "162",
+"Model": "2013",
+"Color": "#FFFF00",
+"Price": "706656.7733272658000000",
+"PlateNumber": "1378ebc7-6bb7-4415-90e6-7db541293477",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "163",
+"Model": "1997",
+"Color": "#FF00FF",
+"Price": "375954.6136606163000000",
+"PlateNumber": "2b21ed8e-82a4-4fcc-88e5-367d889f28d1",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "164",
+"Model": "1992",
+"Color": "#00FFFF",
+"Price": "708779.7429940524500000",
+"PlateNumber": "96808cd9-55c1-455d-822d-d550e942264a",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "165",
+"Model": "2003",
+"Color": "#FF00FF",
+"Price": "506441.4242636323500000",
+"PlateNumber": "ead35a90-3196-42c3-9e74-380f3fe4a65b",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "166",
+"Model": "1993",
+"Color": "#000000",
+"Price": "933962.1555821121000000",
+"PlateNumber": "2454d785-befa-4bb4-af98-026eef9390ef",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "167",
+"Model": "2006",
+"Color": "#00FFFF",
+"Price": "540173.3481574474000000",
+"PlateNumber": "14d1cc84-4f7e-4f08-a8cd-a859e3d7a891",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "168",
+"Model": "1998",
+"Color": "#808080",
+"Price": "180960.4782621552500000",
+"PlateNumber": "119cc70e-76a6-47ac-96d1-3f84f1d91065",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "169",
+"Model": "2014",
+"Color": "#00FA9A",
+"Price": "361436.5343843635500000",
+"PlateNumber": "1cc45d05-f536-4750-b8e0-70b358a7a9f2",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "170",
+"Model": "2020",
+"Color": "#FF00FF",
+"Price": "260074.7121823167000000",
+"PlateNumber": "216585f5-8057-453a-b53c-62e15e2eb1f8",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "171",
+"Model": "2001",
+"Color": "#C0C0C0",
+"Price": "661708.5326472598500000",
+"PlateNumber": "998011c7-ff3f-44f6-b1c8-614ec69a396e",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "172",
+"Model": "1992",
+"Color": "#00FFFF",
+"Price": "868906.9278169483500000",
+"PlateNumber": "bab2e715-ff85-47a1-bb11-5bc2d52a2076",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "173",
+"Model": "2015",
+"Color": "#00FF00",
+"Price": "640842.1383209556500000",
+"PlateNumber": "8bccfd56-5f07-4630-bb63-4a6784823d13",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "174",
+"Model": "2008",
+"Color": "#800000",
+"Price": "189123.7683024882000000",
+"PlateNumber": "4d5c139f-0a26-491f-b361-a69ff05ab3b9",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "175",
+"Model": "2010",
+"Color": "#008080",
+"Price": "99212.02893111722500000",
+"PlateNumber": "a77b0663-70cc-4779-884b-0121771baba2",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "176",
+"Model": "2006",
+"Color": "#808080",
+"Price": "952455.7957018926500000",
+"PlateNumber": "62e249dd-05eb-45cd-81ec-b75b88af98f2",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "177",
+"Model": "2014",
+"Color": "#000000",
+"Price": "649743.4694102023000000",
+"PlateNumber": "dfcdba90-aafd-427f-83a4-7b71cd148f44",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "178",
+"Model": "2012",
+"Color": "#00FA9A",
+"Price": "260466.8183935352000000",
+"PlateNumber": "4d752703-fd28-4d71-8e2e-8082a8a38c72",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "179",
+"Model": "1994",
+"Color": "#FF0000",
+"Price": "835166.5163167592500000",
+"PlateNumber": "0618a753-a01b-4940-83a1-aad053c78e6e",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "180",
+"Model": "2004",
+"Color": "#FFFF00",
+"Price": "276871.1264918640500000",
+"PlateNumber": "ce854efc-6d1e-4785-bc43-ba9f5b6646cf",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "181",
+"Model": "2020",
+"Color": "#FAEBD7",
+"Price": "967449.9525856119500000",
+"PlateNumber": "ee48e09e-52e7-4a6d-b047-42332eeee834",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "182",
+"Model": "2006",
+"Color": "#00FFFF",
+"Price": "756637.4623732141000000",
+"PlateNumber": "52a2cfb9-43ad-4070-b0ad-f76f13c3647b",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "183",
+"Model": "2000",
+"Color": "#000080",
+"Price": "888267.1887015830500000",
+"PlateNumber": "d8698ed8-fde6-4ca8-b53d-4c2376d7a8f7",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "184",
+"Model": "2005",
+"Color": "#00FF00",
+"Price": "91652.86373116719500000",
+"PlateNumber": "50e3cd38-13bc-43d3-a48f-13b6c2ad51ef",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "185",
+"Model": "2023",
+"Color": "#FF0000",
+"Price": "711415.0511319215500000",
+"PlateNumber": "44af5ca5-0603-401c-9533-e9fca200b08e",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "186",
+"Model": "2001",
+"Color": "#00FF00",
+"Price": "203890.547277548000000",
+"PlateNumber": "ff65e166-50a0-4987-a2cd-63fea5fbd7aa",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "187",
+"Model": "2012",
+"Color": "#FFFF00",
+"Price": "200226.6798277298000000",
+"PlateNumber": "ba863cfd-411a-449e-a7b7-3515bc9bf3c6",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "188",
+"Model": "2007",
+"Color": "#00FFFF",
+"Price": "101205.46269372821500000",
+"PlateNumber": "897d46ef-d623-4823-a3ab-f86ea300f39b",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "189",
+"Model": "2015",
+"Color": "#000080",
+"Price": "293987.9020963587000000",
+"PlateNumber": "957c4b38-1a70-48ae-a1cd-19ab5fb17773",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "190",
+"Model": "2015",
+"Color": "#800080",
+"Price": "804608.57847389000000",
+"PlateNumber": "87949960-9448-414c-9341-f23fb8e91f04",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "191",
+"Model": "2014",
+"Color": "#000000",
+"Price": "453777.6607430114500000",
+"PlateNumber": "b25d1f98-bdbe-4374-9baa-bba56b8d0051",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "192",
+"Model": "1995",
+"Color": "#00FF00",
+"Price": "162599.2845247912500000",
+"PlateNumber": "2c9caaf3-ca58-4832-9d7e-5bc8d0a7f8ac",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "193",
+"Model": "1998",
+"Color": "#0000FF",
+"Price": "570912.1056784678000000",
+"PlateNumber": "6cdc789d-2c29-4094-88ad-39278747fa3d",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "194",
+"Model": "2016",
+"Color": "#00FA9A",
+"Price": "299773.4459942494000000",
+"PlateNumber": "138a92a8-3a32-4e2b-a65f-0b4320ac60d5",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "195",
+"Model": "2023",
+"Color": "#FAEBD7",
+"Price": "630988.8135261970500000",
+"PlateNumber": "a096be65-7204-44e7-a0c3-1d7bd6cdd662",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "196",
+"Model": "2018",
+"Color": "#800000",
+"Price": "392502.8720452148500000",
+"PlateNumber": "7d484496-ecfb-42a1-bf6f-3aa7fcd23ab1",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "197",
+"Model": "2020",
+"Color": "#F0F8FF",
+"Price": "108126.98015784487000000",
+"PlateNumber": "187545bc-1eb8-4220-bc40-ad4ed4b56d40",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "198",
+"Model": "2020",
+"Color": "#800000",
+"Price": "277427.1794097494500000",
+"PlateNumber": "ffd2f6f0-3ab5-42d3-a0e2-1cb8caa3ad35",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "199",
+"Model": "2017",
+"Color": "#FF0000",
+"Price": "967462.0746262757500000",
+"PlateNumber": "7143df8d-9577-4745-8539-c394a66c2d58",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "200",
+"Model": "1998",
+"Color": "#800000",
+"Price": "917522.9258951446500000",
+"PlateNumber": "797aa095-9dd8-4056-acb4-15c8abfaeef0",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+]

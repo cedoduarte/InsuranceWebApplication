@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>input/DbSeeder.cs</file>
+        <file>input/users.json</file>
+        <file>input/insurances.json</file>
+        <file>input/cars.json</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,2602 @@
+[
+{
+"Id": "1",
+"UserId": "193",
+"CarId": "123",
+"StartDate": "new DateTime(2021, 6, 24)",
+"EndDate": "new DateTime(2022, 6, 24)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "5420.3280978410560000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "2",
+"UserId": "142",
+"CarId": "174",
+"StartDate": "new DateTime(1990, 5, 21)",
+"EndDate": "new DateTime(1991, 5, 21)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "2253.95447751161360000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "3",
+"UserId": "70",
+"CarId": "142",
+"StartDate": "new DateTime(2016, 10, 14)",
+"EndDate": "new DateTime(2017, 10, 14)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "3680.2336533095440000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "4",
+"UserId": "134",
+"CarId": "99",
+"StartDate": "new DateTime(1998, 8, 29)",
+"EndDate": "new DateTime(1999, 8, 29)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "8068.5661734972240000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "5",
+"UserId": "36",
+"CarId": "61",
+"StartDate": "new DateTime(2023, 11, 27)",
+"EndDate": "new DateTime(2024, 11, 26)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "8356.1550748886960000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "6",
+"UserId": "175",
+"CarId": "13",
+"StartDate": "new DateTime(2022, 1, 26)",
+"EndDate": "new DateTime(2023, 1, 26)",
+"TypeOfInsurance": "Medical Payments Coverage (MedPay)",
+"Premium": "3529.3791371555680000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "7",
+"UserId": "34",
+"CarId": "147",
+"StartDate": "new DateTime(2019, 7, 29)",
+"EndDate": "new DateTime(2020, 7, 28)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "7272.7165205039520000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "8",
+"UserId": "111",
+"CarId": "67",
+"StartDate": "new DateTime(2003, 2, 15)",
+"EndDate": "new DateTime(2004, 2, 15)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "6871.4158693610640000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "9",
+"UserId": "51",
+"CarId": "132",
+"StartDate": "new DateTime(2005, 1, 29)",
+"EndDate": "new DateTime(2006, 1, 29)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "2804.3532754158160000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "10",
+"UserId": "153",
+"CarId": "98",
+"StartDate": "new DateTime(2013, 3, 6)",
+"EndDate": "new DateTime(2014, 3, 6)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "6313.7531311260080000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "11",
+"UserId": "52",
+"CarId": "79",
+"StartDate": "new DateTime(2004, 2, 8)",
+"EndDate": "new DateTime(2005, 2, 7)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "5772.9616718499680000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "12",
+"UserId": "41",
+"CarId": "26",
+"StartDate": "new DateTime(2010, 11, 6)",
+"EndDate": "new DateTime(2011, 11, 6)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "2288.87061030143120000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "13",
+"UserId": "113",
+"CarId": "80",
+"StartDate": "new DateTime(1997, 7, 5)",
+"EndDate": "new DateTime(1998, 7, 5)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "8088.3287923441520000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "14",
+"UserId": "169",
+"CarId": "116",
+"StartDate": "new DateTime(1994, 7, 12)",
+"EndDate": "new DateTime(1995, 7, 12)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "2681.83071183555120000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "15",
+"UserId": "2",
+"CarId": "53",
+"StartDate": "new DateTime(2024, 7, 21)",
+"EndDate": "new DateTime(2025, 7, 21)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "9018.3021667359680000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "16",
+"UserId": "13",
+"CarId": "47",
+"StartDate": "new DateTime(2024, 1, 17)",
+"EndDate": "new DateTime(2025, 1, 16)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "7748.2551925936560000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "17",
+"UserId": "113",
+"CarId": "92",
+"StartDate": "new DateTime(1995, 9, 7)",
+"EndDate": "new DateTime(1996, 9, 6)",
+"TypeOfInsurance": "Collision Insurance",
+"Premium": "5288.2778389723280000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "18",
+"UserId": "30",
+"CarId": "45",
+"StartDate": "new DateTime(2018, 9, 17)",
+"EndDate": "new DateTime(2019, 9, 17)",
+"TypeOfInsurance": "Medical Payments Coverage (MedPay)",
+"Premium": "8491.7496446640720000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "19",
+"UserId": "23",
+"CarId": "177",
+"StartDate": "new DateTime(1991, 3, 20)",
+"EndDate": "new DateTime(1992, 3, 19)",
+"TypeOfInsurance": "Collision Insurance",
+"Premium": "8576.3070830090560000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "20",
+"UserId": "91",
+"CarId": "116",
+"StartDate": "new DateTime(1997, 10, 28)",
+"EndDate": "new DateTime(1998, 10, 28)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "7554.5804249388400000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "21",
+"UserId": "128",
+"CarId": "26",
+"StartDate": "new DateTime(2020, 2, 26)",
+"EndDate": "new DateTime(2021, 2, 25)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "5616.8759775728160000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "22",
+"UserId": "21",
+"CarId": "123",
+"StartDate": "new DateTime(2005, 6, 4)",
+"EndDate": "new DateTime(2006, 6, 4)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "2699.89478159270480000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "23",
+"UserId": "154",
+"CarId": "78",
+"StartDate": "new DateTime(1993, 11, 19)",
+"EndDate": "new DateTime(1994, 11, 19)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "3044.5695836103840000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "24",
+"UserId": "26",
+"CarId": "70",
+"StartDate": "new DateTime(2008, 10, 29)",
+"EndDate": "new DateTime(2009, 10, 29)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "8136.6034974736080000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "25",
+"UserId": "190",
+"CarId": "160",
+"StartDate": "new DateTime(2024, 4, 1)",
+"EndDate": "new DateTime(2025, 4, 1)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "5614.3018795259440000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "26",
+"UserId": "15",
+"CarId": "103",
+"StartDate": "new DateTime(1995, 9, 2)",
+"EndDate": "new DateTime(1996, 9, 1)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "8957.4797424471920000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "27",
+"UserId": "21",
+"CarId": "168",
+"StartDate": "new DateTime(2013, 12, 7)",
+"EndDate": "new DateTime(2014, 12, 7)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "3857.2056422932560000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "28",
+"UserId": "105",
+"CarId": "130",
+"StartDate": "new DateTime(1994, 10, 14)",
+"EndDate": "new DateTime(1995, 10, 14)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "4784.52075166320000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "29",
+"UserId": "128",
+"CarId": "165",
+"StartDate": "new DateTime(1994, 3, 27)",
+"EndDate": "new DateTime(1995, 3, 27)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "3163.3007504995600000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "30",
+"UserId": "5",
+"CarId": "81",
+"StartDate": "new DateTime(2001, 11, 25)",
+"EndDate": "new DateTime(2002, 11, 25)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "3270.2368244759600000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "31",
+"UserId": "135",
+"CarId": "5",
+"StartDate": "new DateTime(2011, 10, 18)",
+"EndDate": "new DateTime(2012, 10, 17)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "5421.5695795350560000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "32",
+"UserId": "16",
+"CarId": "125",
+"StartDate": "new DateTime(2000, 5, 4)",
+"EndDate": "new DateTime(2001, 5, 4)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "7379.9731754043680000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "33",
+"UserId": "6",
+"CarId": "5",
+"StartDate": "new DateTime(2015, 12, 29)",
+"EndDate": "new DateTime(2016, 12, 28)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "6843.627746728560000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "34",
+"UserId": "36",
+"CarId": "112",
+"StartDate": "new DateTime(2000, 3, 5)",
+"EndDate": "new DateTime(2001, 3, 5)",
+"TypeOfInsurance": "Collision Insurance",
+"Premium": "6731.0641973533760000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "35",
+"UserId": "60",
+"CarId": "119",
+"StartDate": "new DateTime(2011, 5, 5)",
+"EndDate": "new DateTime(2012, 5, 4)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "4844.4642333542640000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "36",
+"UserId": "62",
+"CarId": "156",
+"StartDate": "new DateTime(1995, 7, 13)",
+"EndDate": "new DateTime(1996, 7, 12)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "7113.5370091540160000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "37",
+"UserId": "96",
+"CarId": "178",
+"StartDate": "new DateTime(1991, 10, 17)",
+"EndDate": "new DateTime(1992, 10, 16)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "4227.2224986482640000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "38",
+"UserId": "37",
+"CarId": "136",
+"StartDate": "new DateTime(2010, 3, 17)",
+"EndDate": "new DateTime(2011, 3, 17)",
+"TypeOfInsurance": "Medical Payments Coverage (MedPay)",
+"Premium": "8450.1660632578240000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "39",
+"UserId": "127",
+"CarId": "78",
+"StartDate": "new DateTime(2023, 11, 5)",
+"EndDate": "new DateTime(2024, 11, 4)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "5502.6047105557520000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "40",
+"UserId": "143",
+"CarId": "87",
+"StartDate": "new DateTime(1991, 5, 12)",
+"EndDate": "new DateTime(1992, 5, 11)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "8059.5250565153440000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "41",
+"UserId": "163",
+"CarId": "83",
+"StartDate": "new DateTime(2017, 9, 17)",
+"EndDate": "new DateTime(2018, 9, 17)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "6755.5176125050320000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "42",
+"UserId": "161",
+"CarId": "81",
+"StartDate": "new DateTime(2001, 5, 19)",
+"EndDate": "new DateTime(2002, 5, 19)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "2916.3988044944080000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "43",
+"UserId": "91",
+"CarId": "157",
+"StartDate": "new DateTime(2009, 10, 11)",
+"EndDate": "new DateTime(2010, 10, 11)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "8907.4332349612640000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "44",
+"UserId": "191",
+"CarId": "165",
+"StartDate": "new DateTime(2021, 11, 12)",
+"EndDate": "new DateTime(2022, 11, 12)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "5364.3248087899680000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "45",
+"UserId": "42",
+"CarId": "182",
+"StartDate": "new DateTime(2017, 4, 10)",
+"EndDate": "new DateTime(2018, 4, 10)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "7735.4638554428320000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "46",
+"UserId": "11",
+"CarId": "177",
+"StartDate": "new DateTime(2006, 2, 9)",
+"EndDate": "new DateTime(2007, 2, 9)",
+"TypeOfInsurance": "Uninsured Motorist Coverage",
+"Premium": "6658.2628891011920000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "47",
+"UserId": "124",
+"CarId": "176",
+"StartDate": "new DateTime(2001, 4, 29)",
+"EndDate": "new DateTime(2002, 4, 29)",
+"TypeOfInsurance": "Personal Injury Protection (PIP)",
+"Premium": "3547.032050615600000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "48",
+"UserId": "70",
+"CarId": "187",
+"StartDate": "new DateTime(1991, 7, 3)",
+"EndDate": "new DateTime(1992, 7, 2)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "8677.5311127453840000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "49",
+"UserId": "71",
+"CarId": "130",
+"StartDate": "new DateTime(2001, 5, 31)",
+"EndDate": "new DateTime(2002, 5, 31)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "2805.6109042211680000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "50",
+"UserId": "154",
+"CarId": "180",
+"StartDate": "new DateTime(2010, 11, 27)",
+"EndDate": "new DateTime(2011, 11, 27)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "8547.4920975144080000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "51",
+"UserId": "12",
+"CarId": "188",
+"StartDate": "new DateTime(1999, 3, 29)",
+"EndDate": "new DateTime(2000, 3, 28)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "9403.5594190105120000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "52",
+"UserId": "183",
+"CarId": "168",
+"StartDate": "new DateTime(2006, 7, 29)",
+"EndDate": "new DateTime(2007, 7, 29)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "8644.3677011223120000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "53",
+"UserId": "121",
+"CarId": "50",
+"StartDate": "new DateTime(2020, 8, 24)",
+"EndDate": "new DateTime(2021, 8, 24)",
+"TypeOfInsurance": "Collision Insurance",
+"Premium": "4999.1198154480000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "54",
+"UserId": "84",
+"CarId": "162",
+"StartDate": "new DateTime(2001, 12, 19)",
+"EndDate": "new DateTime(2002, 12, 19)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "9795.8495773289920000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "55",
+"UserId": "37",
+"CarId": "18",
+"StartDate": "new DateTime(2001, 12, 3)",
+"EndDate": "new DateTime(2002, 12, 3)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "4720.0988406169040000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "56",
+"UserId": "194",
+"CarId": "147",
+"StartDate": "new DateTime(2023, 4, 1)",
+"EndDate": "new DateTime(2024, 3, 31)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "5102.328091642160000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "57",
+"UserId": "180",
+"CarId": "103",
+"StartDate": "new DateTime(2005, 4, 24)",
+"EndDate": "new DateTime(2006, 4, 24)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "4407.8582874716880000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "58",
+"UserId": "58",
+"CarId": "130",
+"StartDate": "new DateTime(2015, 4, 16)",
+"EndDate": "new DateTime(2016, 4, 15)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "4326.7972836784400000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "59",
+"UserId": "28",
+"CarId": "83",
+"StartDate": "new DateTime(2012, 4, 11)",
+"EndDate": "new DateTime(2013, 4, 11)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "8415.9278071143680000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "60",
+"UserId": "22",
+"CarId": "75",
+"StartDate": "new DateTime(2018, 8, 15)",
+"EndDate": "new DateTime(2019, 8, 15)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "9263.9997785282880000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "61",
+"UserId": "163",
+"CarId": "136",
+"StartDate": "new DateTime(2019, 12, 24)",
+"EndDate": "new DateTime(2020, 12, 23)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "7136.1064960487920000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "62",
+"UserId": "83",
+"CarId": "142",
+"StartDate": "new DateTime(1991, 9, 14)",
+"EndDate": "new DateTime(1992, 9, 13)",
+"TypeOfInsurance": "Medical Payments Coverage (MedPay)",
+"Premium": "9190.7743377978560000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "63",
+"UserId": "170",
+"CarId": "103",
+"StartDate": "new DateTime(2015, 1, 18)",
+"EndDate": "new DateTime(2016, 1, 18)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "7501.4059747311680000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "64",
+"UserId": "2",
+"CarId": "28",
+"StartDate": "new DateTime(1990, 6, 29)",
+"EndDate": "new DateTime(1991, 6, 29)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "7678.3353179474880000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "65",
+"UserId": "165",
+"CarId": "69",
+"StartDate": "new DateTime(2020, 8, 30)",
+"EndDate": "new DateTime(2021, 8, 30)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "4317.7756017374160000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "66",
+"UserId": "191",
+"CarId": "88",
+"StartDate": "new DateTime(2022, 3, 22)",
+"EndDate": "new DateTime(2023, 3, 22)",
+"TypeOfInsurance": "Uninsured Motorist Coverage",
+"Premium": "6595.0638788571920000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "67",
+"UserId": "17",
+"CarId": "89",
+"StartDate": "new DateTime(2007, 6, 22)",
+"EndDate": "new DateTime(2008, 6, 21)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "5319.8711260470160000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "68",
+"UserId": "28",
+"CarId": "128",
+"StartDate": "new DateTime(2006, 6, 18)",
+"EndDate": "new DateTime(2007, 6, 18)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "9041.9191894121360000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "69",
+"UserId": "145",
+"CarId": "81",
+"StartDate": "new DateTime(2001, 4, 28)",
+"EndDate": "new DateTime(2002, 4, 28)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "8952.88920607520000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "70",
+"UserId": "60",
+"CarId": "122",
+"StartDate": "new DateTime(2006, 8, 3)",
+"EndDate": "new DateTime(2007, 8, 3)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "9865.1955565616720000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "71",
+"UserId": "150",
+"CarId": "31",
+"StartDate": "new DateTime(1994, 8, 10)",
+"EndDate": "new DateTime(1995, 8, 10)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "7001.5900346501840000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "72",
+"UserId": "163",
+"CarId": "138",
+"StartDate": "new DateTime(2024, 3, 21)",
+"EndDate": "new DateTime(2025, 3, 21)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "3095.4238778502800000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "73",
+"UserId": "165",
+"CarId": "29",
+"StartDate": "new DateTime(2012, 5, 6)",
+"EndDate": "new DateTime(2013, 5, 6)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "2779.15253488698160000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "74",
+"UserId": "46",
+"CarId": "37",
+"StartDate": "new DateTime(1992, 11, 25)",
+"EndDate": "new DateTime(1993, 11, 25)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "7025.655722950160000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "75",
+"UserId": "166",
+"CarId": "77",
+"StartDate": "new DateTime(2022, 4, 27)",
+"EndDate": "new DateTime(2023, 4, 27)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "4414.3533624152960000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "76",
+"UserId": "40",
+"CarId": "187",
+"StartDate": "new DateTime(1999, 11, 21)",
+"EndDate": "new DateTime(2000, 11, 20)",
+"TypeOfInsurance": "Medical Payments Coverage (MedPay)",
+"Premium": "6743.4431933845040000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "77",
+"UserId": "82",
+"CarId": "52",
+"StartDate": "new DateTime(2005, 2, 3)",
+"EndDate": "new DateTime(2006, 2, 3)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "2926.6752769495520000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "78",
+"UserId": "62",
+"CarId": "151",
+"StartDate": "new DateTime(1994, 11, 23)",
+"EndDate": "new DateTime(1995, 11, 23)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "4447.9906298507920000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "79",
+"UserId": "78",
+"CarId": "78",
+"StartDate": "new DateTime(2007, 1, 10)",
+"EndDate": "new DateTime(2008, 1, 10)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "4405.1762775310720000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "80",
+"UserId": "128",
+"CarId": "95",
+"StartDate": "new DateTime(1998, 7, 22)",
+"EndDate": "new DateTime(1999, 7, 22)",
+"TypeOfInsurance": "Collision Insurance",
+"Premium": "8579.2712563202560000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "81",
+"UserId": "150",
+"CarId": "66",
+"StartDate": "new DateTime(2016, 1, 9)",
+"EndDate": "new DateTime(2017, 1, 8)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "3776.8219095937360000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "82",
+"UserId": "165",
+"CarId": "114",
+"StartDate": "new DateTime(2007, 7, 22)",
+"EndDate": "new DateTime(2008, 7, 21)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "6009.4299164141120000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "83",
+"UserId": "145",
+"CarId": "31",
+"StartDate": "new DateTime(1992, 3, 9)",
+"EndDate": "new DateTime(1993, 3, 9)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "7292.4044632071040000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "84",
+"UserId": "13",
+"CarId": "76",
+"StartDate": "new DateTime(2006, 5, 17)",
+"EndDate": "new DateTime(2007, 5, 17)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "8272.6408255389520000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "85",
+"UserId": "99",
+"CarId": "174",
+"StartDate": "new DateTime(2006, 4, 15)",
+"EndDate": "new DateTime(2007, 4, 15)",
+"TypeOfInsurance": "Personal Injury Protection (PIP)",
+"Premium": "9603.2691297389200000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "86",
+"UserId": "69",
+"CarId": "109",
+"StartDate": "new DateTime(1998, 9, 29)",
+"EndDate": "new DateTime(1999, 9, 29)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "6320.2668641883840000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "87",
+"UserId": "154",
+"CarId": "108",
+"StartDate": "new DateTime(2016, 5, 28)",
+"EndDate": "new DateTime(2017, 5, 28)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "3670.2222730351840000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "88",
+"UserId": "134",
+"CarId": "73",
+"StartDate": "new DateTime(2013, 11, 13)",
+"EndDate": "new DateTime(2014, 11, 13)",
+"TypeOfInsurance": "Medical Payments Coverage (MedPay)",
+"Premium": "9898.929082664720000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "89",
+"UserId": "100",
+"CarId": "49",
+"StartDate": "new DateTime(2003, 4, 17)",
+"EndDate": "new DateTime(2004, 4, 16)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "7338.8787260878160000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "90",
+"UserId": "13",
+"CarId": "183",
+"StartDate": "new DateTime(2008, 2, 27)",
+"EndDate": "new DateTime(2009, 2, 26)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "3657.016191918640000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "91",
+"UserId": "46",
+"CarId": "147",
+"StartDate": "new DateTime(2000, 7, 27)",
+"EndDate": "new DateTime(2001, 7, 27)",
+"TypeOfInsurance": "Uninsured Motorist Coverage",
+"Premium": "2617.06040007207840000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "92",
+"UserId": "153",
+"CarId": "44",
+"StartDate": "new DateTime(1999, 4, 18)",
+"EndDate": "new DateTime(2000, 4, 17)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "6739.972605826720000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "93",
+"UserId": "23",
+"CarId": "154",
+"StartDate": "new DateTime(1991, 5, 4)",
+"EndDate": "new DateTime(1992, 5, 3)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "7382.7361444528880000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "94",
+"UserId": "49",
+"CarId": "76",
+"StartDate": "new DateTime(2012, 8, 29)",
+"EndDate": "new DateTime(2013, 8, 29)",
+"TypeOfInsurance": "Personal Injury Protection (PIP)",
+"Premium": "4912.9939059766240000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "95",
+"UserId": "61",
+"CarId": "13",
+"StartDate": "new DateTime(1991, 9, 13)",
+"EndDate": "new DateTime(1992, 9, 12)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "9195.8617197190080000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "96",
+"UserId": "184",
+"CarId": "82",
+"StartDate": "new DateTime(2022, 2, 8)",
+"EndDate": "new DateTime(2023, 2, 8)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "5470.9289127079120000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "97",
+"UserId": "187",
+"CarId": "2",
+"StartDate": "new DateTime(2011, 11, 5)",
+"EndDate": "new DateTime(2012, 11, 4)",
+"TypeOfInsurance": "Collision Insurance",
+"Premium": "9406.2584327819920000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "98",
+"UserId": "90",
+"CarId": "133",
+"StartDate": "new DateTime(1999, 3, 26)",
+"EndDate": "new DateTime(2000, 3, 25)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "6389.198605535920000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "99",
+"UserId": "97",
+"CarId": "135",
+"StartDate": "new DateTime(2015, 8, 13)",
+"EndDate": "new DateTime(2016, 8, 12)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "6372.1213677899600000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "100",
+"UserId": "152",
+"CarId": "182",
+"StartDate": "new DateTime(2006, 9, 6)",
+"EndDate": "new DateTime(2007, 9, 6)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "6678.0419519436320000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "101",
+"UserId": "42",
+"CarId": "104",
+"StartDate": "new DateTime(1994, 11, 30)",
+"EndDate": "new DateTime(1995, 11, 30)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "6752.6829578594800000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "102",
+"UserId": "12",
+"CarId": "197",
+"StartDate": "new DateTime(2004, 9, 17)",
+"EndDate": "new DateTime(2005, 9, 17)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "3697.1297465399600000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "103",
+"UserId": "149",
+"CarId": "15",
+"StartDate": "new DateTime(1990, 3, 11)",
+"EndDate": "new DateTime(1991, 3, 11)",
+"TypeOfInsurance": "Medical Payments Coverage (MedPay)",
+"Premium": "7237.8109651027440000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "104",
+"UserId": "51",
+"CarId": "65",
+"StartDate": "new DateTime(2022, 4, 3)",
+"EndDate": "new DateTime(2023, 4, 3)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "6197.2492395463040000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "105",
+"UserId": "44",
+"CarId": "54",
+"StartDate": "new DateTime(2007, 8, 30)",
+"EndDate": "new DateTime(2008, 8, 29)",
+"TypeOfInsurance": "Uninsured Motorist Coverage",
+"Premium": "5255.4935582820720000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "106",
+"UserId": "1",
+"CarId": "16",
+"StartDate": "new DateTime(1995, 1, 26)",
+"EndDate": "new DateTime(1996, 1, 26)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "8248.3595700903680000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "107",
+"UserId": "67",
+"CarId": "194",
+"StartDate": "new DateTime(2007, 6, 3)",
+"EndDate": "new DateTime(2008, 6, 2)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "8386.7119136425760000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "108",
+"UserId": "198",
+"CarId": "71",
+"StartDate": "new DateTime(2010, 3, 12)",
+"EndDate": "new DateTime(2011, 3, 12)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "6026.4563532242080000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "109",
+"UserId": "131",
+"CarId": "151",
+"StartDate": "new DateTime(2001, 12, 31)",
+"EndDate": "new DateTime(2002, 12, 31)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "4285.9650742408480000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "110",
+"UserId": "149",
+"CarId": "171",
+"StartDate": "new DateTime(2010, 4, 6)",
+"EndDate": "new DateTime(2011, 4, 6)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "9549.2056308064080000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "111",
+"UserId": "176",
+"CarId": "69",
+"StartDate": "new DateTime(2003, 5, 17)",
+"EndDate": "new DateTime(2004, 5, 16)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "8114.05810584480000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "112",
+"UserId": "182",
+"CarId": "85",
+"StartDate": "new DateTime(1998, 4, 11)",
+"EndDate": "new DateTime(1999, 4, 11)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "4396.817401770880000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "113",
+"UserId": "72",
+"CarId": "123",
+"StartDate": "new DateTime(2020, 7, 17)",
+"EndDate": "new DateTime(2021, 7, 17)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "4583.0095127526480000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "114",
+"UserId": "100",
+"CarId": "123",
+"StartDate": "new DateTime(2003, 6, 1)",
+"EndDate": "new DateTime(2004, 5, 31)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "2664.83713206958880000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "115",
+"UserId": "86",
+"CarId": "28",
+"StartDate": "new DateTime(2021, 1, 28)",
+"EndDate": "new DateTime(2022, 1, 28)",
+"TypeOfInsurance": "Personal Injury Protection (PIP)",
+"Premium": "6256.5153438622960000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "116",
+"UserId": "121",
+"CarId": "149",
+"StartDate": "new DateTime(2018, 6, 14)",
+"EndDate": "new DateTime(2019, 6, 14)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "3514.0630499443680000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "117",
+"UserId": "146",
+"CarId": "132",
+"StartDate": "new DateTime(2016, 5, 14)",
+"EndDate": "new DateTime(2017, 5, 14)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "6874.2077198077360000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "118",
+"UserId": "121",
+"CarId": "184",
+"StartDate": "new DateTime(2019, 3, 2)",
+"EndDate": "new DateTime(2020, 3, 1)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "4248.3861712598320000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "119",
+"UserId": "109",
+"CarId": "76",
+"StartDate": "new DateTime(1997, 7, 29)",
+"EndDate": "new DateTime(1998, 7, 29)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "2630.83812416023120000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "120",
+"UserId": "173",
+"CarId": "47",
+"StartDate": "new DateTime(1995, 4, 18)",
+"EndDate": "new DateTime(1996, 4, 17)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "8180.2183574266960000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "121",
+"UserId": "91",
+"CarId": "75",
+"StartDate": "new DateTime(1993, 8, 13)",
+"EndDate": "new DateTime(1994, 8, 13)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "3877.8577316787680000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "122",
+"UserId": "133",
+"CarId": "21",
+"StartDate": "new DateTime(2019, 8, 10)",
+"EndDate": "new DateTime(2020, 8, 9)",
+"TypeOfInsurance": "Collision Insurance",
+"Premium": "8967.935436452640000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "123",
+"UserId": "173",
+"CarId": "64",
+"StartDate": "new DateTime(2011, 5, 25)",
+"EndDate": "new DateTime(2012, 5, 24)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "9490.662957449520000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "124",
+"UserId": "77",
+"CarId": "14",
+"StartDate": "new DateTime(2008, 1, 11)",
+"EndDate": "new DateTime(2009, 1, 10)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "3763.4385891512160000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "125",
+"UserId": "40",
+"CarId": "46",
+"StartDate": "new DateTime(2013, 2, 16)",
+"EndDate": "new DateTime(2014, 2, 16)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "2278.61947546170720000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "126",
+"UserId": "105",
+"CarId": "22",
+"StartDate": "new DateTime(2020, 4, 20)",
+"EndDate": "new DateTime(2021, 4, 20)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "6826.919041015120000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "127",
+"UserId": "186",
+"CarId": "25",
+"StartDate": "new DateTime(2001, 1, 11)",
+"EndDate": "new DateTime(2002, 1, 11)",
+"TypeOfInsurance": "Personal Injury Protection (PIP)",
+"Premium": "7503.9933897694480000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "128",
+"UserId": "49",
+"CarId": "109",
+"StartDate": "new DateTime(1999, 7, 22)",
+"EndDate": "new DateTime(2000, 7, 21)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "9993.1604817186480000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "129",
+"UserId": "30",
+"CarId": "78",
+"StartDate": "new DateTime(2004, 1, 21)",
+"EndDate": "new DateTime(2005, 1, 20)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "4229.2662590012560000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "130",
+"UserId": "110",
+"CarId": "134",
+"StartDate": "new DateTime(2020, 12, 6)",
+"EndDate": "new DateTime(2021, 12, 6)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "5049.8011595445440000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "131",
+"UserId": "73",
+"CarId": "47",
+"StartDate": "new DateTime(1993, 10, 21)",
+"EndDate": "new DateTime(1994, 10, 21)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "7784.3118341886720000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "132",
+"UserId": "172",
+"CarId": "165",
+"StartDate": "new DateTime(2022, 11, 22)",
+"EndDate": "new DateTime(2023, 11, 22)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "2722.68110897387520000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "133",
+"UserId": "40",
+"CarId": "26",
+"StartDate": "new DateTime(2023, 1, 12)",
+"EndDate": "new DateTime(2024, 1, 12)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "2408.72596264380240000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "134",
+"UserId": "134",
+"CarId": "175",
+"StartDate": "new DateTime(2001, 6, 23)",
+"EndDate": "new DateTime(2002, 6, 23)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "8048.6602148047600000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "135",
+"UserId": "136",
+"CarId": "84",
+"StartDate": "new DateTime(2018, 8, 23)",
+"EndDate": "new DateTime(2019, 8, 23)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "7035.2105840074080000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "136",
+"UserId": "46",
+"CarId": "88",
+"StartDate": "new DateTime(1995, 9, 18)",
+"EndDate": "new DateTime(1996, 9, 17)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "8316.545954239280000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "137",
+"UserId": "116",
+"CarId": "147",
+"StartDate": "new DateTime(2022, 8, 6)",
+"EndDate": "new DateTime(2023, 8, 6)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "5894.3662674280880000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "138",
+"UserId": "143",
+"CarId": "99",
+"StartDate": "new DateTime(1999, 9, 24)",
+"EndDate": "new DateTime(2000, 9, 23)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "7558.2340870262960000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "139",
+"UserId": "44",
+"CarId": "106",
+"StartDate": "new DateTime(2021, 9, 6)",
+"EndDate": "new DateTime(2022, 9, 6)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "4064.9599455318960000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "140",
+"UserId": "139",
+"CarId": "173",
+"StartDate": "new DateTime(2020, 4, 30)",
+"EndDate": "new DateTime(2021, 4, 30)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "8654.7477185208560000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "141",
+"UserId": "79",
+"CarId": "140",
+"StartDate": "new DateTime(2016, 9, 24)",
+"EndDate": "new DateTime(2017, 9, 24)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "9344.3060709606080000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "142",
+"UserId": "192",
+"CarId": "53",
+"StartDate": "new DateTime(2018, 2, 14)",
+"EndDate": "new DateTime(2019, 2, 14)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "3771.9478737305840000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "143",
+"UserId": "110",
+"CarId": "4",
+"StartDate": "new DateTime(2007, 9, 17)",
+"EndDate": "new DateTime(2008, 9, 16)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "7712.2275645845920000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "144",
+"UserId": "140",
+"CarId": "8",
+"StartDate": "new DateTime(2004, 3, 27)",
+"EndDate": "new DateTime(2005, 3, 27)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "5544.5252732102640000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "145",
+"UserId": "132",
+"CarId": "109",
+"StartDate": "new DateTime(2009, 4, 21)",
+"EndDate": "new DateTime(2010, 4, 21)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "4797.3574306934160000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "146",
+"UserId": "195",
+"CarId": "180",
+"StartDate": "new DateTime(2011, 10, 30)",
+"EndDate": "new DateTime(2012, 10, 29)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "9462.4699009656160000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "147",
+"UserId": "127",
+"CarId": "109",
+"StartDate": "new DateTime(2003, 5, 29)",
+"EndDate": "new DateTime(2004, 5, 28)",
+"TypeOfInsurance": "Personal Injury Protection (PIP)",
+"Premium": "9287.0954286425680000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "148",
+"UserId": "43",
+"CarId": "192",
+"StartDate": "new DateTime(1996, 3, 13)",
+"EndDate": "new DateTime(1997, 3, 13)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "6015.0839855218080000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "149",
+"UserId": "150",
+"CarId": "183",
+"StartDate": "new DateTime(2000, 1, 4)",
+"EndDate": "new DateTime(2001, 1, 3)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "4965.8601532603600000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "150",
+"UserId": "53",
+"CarId": "6",
+"StartDate": "new DateTime(1991, 9, 3)",
+"EndDate": "new DateTime(1992, 9, 2)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "8882.939602608160000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "151",
+"UserId": "135",
+"CarId": "155",
+"StartDate": "new DateTime(2012, 3, 31)",
+"EndDate": "new DateTime(2013, 3, 31)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "2172.95741822118080000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "152",
+"UserId": "182",
+"CarId": "65",
+"StartDate": "new DateTime(2007, 6, 25)",
+"EndDate": "new DateTime(2008, 6, 24)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "5268.9319354042960000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "153",
+"UserId": "106",
+"CarId": "69",
+"StartDate": "new DateTime(2003, 12, 13)",
+"EndDate": "new DateTime(2004, 12, 12)",
+"TypeOfInsurance": "Uninsured Motorist Coverage",
+"Premium": "5967.7758652753520000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "154",
+"UserId": "101",
+"CarId": "177",
+"StartDate": "new DateTime(2005, 11, 25)",
+"EndDate": "new DateTime(2006, 11, 25)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "6138.4644888774960000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "155",
+"UserId": "55",
+"CarId": "187",
+"StartDate": "new DateTime(1997, 5, 12)",
+"EndDate": "new DateTime(1998, 5, 12)",
+"TypeOfInsurance": "Underinsured Motorist Coverage",
+"Premium": "2807.3944147825280000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "156",
+"UserId": "148",
+"CarId": "62",
+"StartDate": "new DateTime(2009, 9, 24)",
+"EndDate": "new DateTime(2010, 9, 24)",
+"TypeOfInsurance": "Uninsured Motorist Coverage",
+"Premium": "7599.8682313281520000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "157",
+"UserId": "181",
+"CarId": "135",
+"StartDate": "new DateTime(2019, 6, 30)",
+"EndDate": "new DateTime(2020, 6, 29)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "2703.16835320803360000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "158",
+"UserId": "131",
+"CarId": "144",
+"StartDate": "new DateTime(1997, 5, 28)",
+"EndDate": "new DateTime(1998, 5, 28)",
+"TypeOfInsurance": "Medical Payments Coverage (MedPay)",
+"Premium": "6893.3897612754640000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "159",
+"UserId": "141",
+"CarId": "43",
+"StartDate": "new DateTime(2005, 4, 27)",
+"EndDate": "new DateTime(2006, 4, 27)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "5002.3467724784560000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "160",
+"UserId": "94",
+"CarId": "186",
+"StartDate": "new DateTime(2015, 8, 15)",
+"EndDate": "new DateTime(2016, 8, 14)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "9167.9991498682960000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "161",
+"UserId": "68",
+"CarId": "197",
+"StartDate": "new DateTime(1996, 12, 15)",
+"EndDate": "new DateTime(1997, 12, 15)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "6717.8611498290880000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "162",
+"UserId": "27",
+"CarId": "64",
+"StartDate": "new DateTime(1996, 7, 14)",
+"EndDate": "new DateTime(1997, 7, 14)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "8402.0322884814640000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "163",
+"UserId": "155",
+"CarId": "71",
+"StartDate": "new DateTime(2011, 9, 6)",
+"EndDate": "new DateTime(2012, 9, 5)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "6175.9441234495840000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "164",
+"UserId": "186",
+"CarId": "181",
+"StartDate": "new DateTime(1999, 3, 11)",
+"EndDate": "new DateTime(2000, 3, 10)",
+"TypeOfInsurance": "Uninsured Motorist Coverage",
+"Premium": "4205.6424562566880000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "165",
+"UserId": "18",
+"CarId": "124",
+"StartDate": "new DateTime(1993, 9, 16)",
+"EndDate": "new DateTime(1994, 9, 16)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "2174.37317808590640000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "166",
+"UserId": "123",
+"CarId": "28",
+"StartDate": "new DateTime(2023, 11, 19)",
+"EndDate": "new DateTime(2024, 11, 18)",
+"TypeOfInsurance": "Uninsured Motorist Coverage",
+"Premium": "3185.1344795282800000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "167",
+"UserId": "48",
+"CarId": "96",
+"StartDate": "new DateTime(2018, 12, 15)",
+"EndDate": "new DateTime(2019, 12, 15)",
+"TypeOfInsurance": "Collision Insurance",
+"Premium": "9149.2182289163360000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "168",
+"UserId": "94",
+"CarId": "62",
+"StartDate": "new DateTime(1994, 11, 26)",
+"EndDate": "new DateTime(1995, 11, 26)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "9714.8426438613440000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "169",
+"UserId": "143",
+"CarId": "142",
+"StartDate": "new DateTime(1994, 9, 3)",
+"EndDate": "new DateTime(1995, 9, 3)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "8883.1384340032080000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "170",
+"UserId": "153",
+"CarId": "109",
+"StartDate": "new DateTime(2008, 5, 18)",
+"EndDate": "new DateTime(2009, 5, 18)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "9608.5810072615040000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "171",
+"UserId": "193",
+"CarId": "35",
+"StartDate": "new DateTime(1998, 8, 8)",
+"EndDate": "new DateTime(1999, 8, 8)",
+"TypeOfInsurance": "Comprehensive Insurance",
+"Premium": "5303.840874702560000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "172",
+"UserId": "175",
+"CarId": "10",
+"StartDate": "new DateTime(1998, 3, 31)",
+"EndDate": "new DateTime(1999, 3, 31)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "8131.6187147585360000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "173",
+"UserId": "79",
+"CarId": "196",
+"StartDate": "new DateTime(1993, 4, 22)",
+"EndDate": "new DateTime(1994, 4, 22)",
+"TypeOfInsurance": "Uninsured Motorist Coverage",
+"Premium": "9350.3569632664880000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "174",
+"UserId": "125",
+"CarId": "32",
+"StartDate": "new DateTime(1993, 12, 27)",
+"EndDate": "new DateTime(1994, 12, 27)",
+"TypeOfInsurance": "Rental Reimbursement",
+"Premium": "4386.6145819419920000",
+"Status": "InsuranceStatus.Cancelled",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "175",
+"UserId": "123",
+"CarId": "98",
+"StartDate": "new DateTime(2010, 12, 14)",
+"EndDate": "new DateTime(2011, 12, 14)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "5400.6222922134560000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "176",
+"UserId": "144",
+"CarId": "136",
+"StartDate": "new DateTime(1990, 2, 27)",
+"EndDate": "new DateTime(1991, 2, 27)",
+"TypeOfInsurance": "Collision Insurance",
+"Premium": "4949.9440145033280000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "177",
+"UserId": "192",
+"CarId": "171",
+"StartDate": "new DateTime(2020, 4, 9)",
+"EndDate": "new DateTime(2021, 4, 9)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "2255.41863891006960000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "178",
+"UserId": "44",
+"CarId": "40",
+"StartDate": "new DateTime(1992, 1, 12)",
+"EndDate": "new DateTime(1993, 1, 11)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "8471.1549804688480000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "179",
+"UserId": "121",
+"CarId": "169",
+"StartDate": "new DateTime(2000, 10, 6)",
+"EndDate": "new DateTime(2001, 10, 6)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "8202.121568265760000",
+"Status": "InsuranceStatus.UnderReview",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "180",
+"UserId": "71",
+"CarId": "153",
+"StartDate": "new DateTime(2014, 10, 15)",
+"EndDate": "new DateTime(2015, 10, 15)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "4621.7996797862560000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "181",
+"UserId": "180",
+"CarId": "51",
+"StartDate": "new DateTime(2003, 8, 31)",
+"EndDate": "new DateTime(2004, 8, 30)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "3512.5998040922480000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "182",
+"UserId": "9",
+"CarId": "164",
+"StartDate": "new DateTime(1990, 5, 13)",
+"EndDate": "new DateTime(1991, 5, 13)",
+"TypeOfInsurance": "Medical Payments Coverage (MedPay)",
+"Premium": "2135.80319157068320000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "183",
+"UserId": "117",
+"CarId": "71",
+"StartDate": "new DateTime(1997, 2, 16)",
+"EndDate": "new DateTime(1998, 2, 16)",
+"TypeOfInsurance": "Gap Insurance",
+"Premium": "9735.6263324999600000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "184",
+"UserId": "101",
+"CarId": "185",
+"StartDate": "new DateTime(2016, 1, 9)",
+"EndDate": "new DateTime(2017, 1, 8)",
+"TypeOfInsurance": "Personal Injury Protection (PIP)",
+"Premium": "4705.6925994331520000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "185",
+"UserId": "119",
+"CarId": "73",
+"StartDate": "new DateTime(2017, 6, 29)",
+"EndDate": "new DateTime(2018, 6, 29)",
+"TypeOfInsurance": "Personal Injury Protection (PIP)",
+"Premium": "3180.238508360160000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "186",
+"UserId": "116",
+"CarId": "88",
+"StartDate": "new DateTime(2006, 6, 19)",
+"EndDate": "new DateTime(2007, 6, 19)",
+"TypeOfInsurance": "Liability Insurance",
+"Premium": "7923.4640541630880000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "187",
+"UserId": "118",
+"CarId": "90",
+"StartDate": "new DateTime(2002, 2, 2)",
+"EndDate": "new DateTime(2003, 2, 2)",
+"TypeOfInsurance": "Roadside Assistance",
+"Premium": "5144.7859834954160000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "188",
+"UserId": "120",
+"CarId": "121",
+"StartDate": "new DateTime(1990, 10, 31)",
+"EndDate": "new DateTime(1991, 10, 31)",
+"TypeOfInsurance": "Bodily Injury Liability",
+"Premium": "5326.3749310321760000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "189",
+"UserId": "96",
+"CarId": "51",
+"StartDate": "new DateTime(1996, 5, 1)",
+"EndDate": "new DateTime(1997, 5, 1)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "4508.2955552978160000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "190",
+"UserId": "99",
+"CarId": "98",
+"StartDate": "new DateTime(2001, 3, 29)",
+"EndDate": "new DateTime(2002, 3, 29)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "5295.2075470777520000",
+"Status": "InsuranceStatus.Suspended",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "191",
+"UserId": "97",
+"CarId": "117",
+"StartDate": "new DateTime(1995, 7, 16)",
+"EndDate": "new DateTime(1996, 7, 15)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "2964.553151950480000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "192",
+"UserId": "38",
+"CarId": "130",
+"StartDate": "new DateTime(2006, 12, 18)",
+"EndDate": "new DateTime(2007, 12, 18)",
+"TypeOfInsurance": "Collision Insurance",
+"Premium": "5371.2425558611120000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "193",
+"UserId": "128",
+"CarId": "116",
+"StartDate": "new DateTime(2007, 8, 22)",
+"EndDate": "new DateTime(2008, 8, 21)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "2996.3709454284320000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "194",
+"UserId": "134",
+"CarId": "36",
+"StartDate": "new DateTime(2024, 4, 5)",
+"EndDate": "new DateTime(2025, 4, 5)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "6478.7981694993360000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "195",
+"UserId": "49",
+"CarId": "35",
+"StartDate": "new DateTime(2021, 1, 6)",
+"EndDate": "new DateTime(2022, 1, 6)",
+"TypeOfInsurance": "Medical Payments Coverage (MedPay)",
+"Premium": "3774.9927998926320000",
+"Status": "InsuranceStatus.Expired",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "196",
+"UserId": "189",
+"CarId": "23",
+"StartDate": "new DateTime(2021, 6, 18)",
+"EndDate": "new DateTime(2022, 6, 18)",
+"TypeOfInsurance": "Property Damage Liability",
+"Premium": "2190.29266877429040000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "197",
+"UserId": "195",
+"CarId": "90",
+"StartDate": "new DateTime(2014, 11, 16)",
+"EndDate": "new DateTime(2015, 11, 16)",
+"TypeOfInsurance": "Collision Coverage",
+"Premium": "5375.9614935450720000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "198",
+"UserId": "106",
+"CarId": "22",
+"StartDate": "new DateTime(2023, 1, 28)",
+"EndDate": "new DateTime(2024, 1, 28)",
+"TypeOfInsurance": "Personal Injury Protection (PIP)",
+"Premium": "6507.6849544218880000",
+"Status": "InsuranceStatus.Lapsed",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "199",
+"UserId": "196",
+"CarId": "104",
+"StartDate": "new DateTime(2020, 4, 17)",
+"EndDate": "new DateTime(2021, 4, 17)",
+"TypeOfInsurance": "Comprehensive Coverage",
+"Premium": "5653.6702454697120000",
+"Status": "InsuranceStatus.Active",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+,{
+"Id": "200",
+"UserId": "43",
+"CarId": "82",
+"StartDate": "new DateTime(1990, 8, 2)",
+"EndDate": "new DateTime(1991, 8, 2)",
+"TypeOfInsurance": "Personal Injury Protection (PIP)",
+"Premium": "3108.9812588628640000",
+"Status": "InsuranceStatus.Pending",
+"LastModified": "new DateTime(2024, 8, 8)",
+"IsDeleted": "False",
+"LastDeleted": "new DateTime(2024, 8, 8)"
+}
+]
