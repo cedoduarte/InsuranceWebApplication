@@ -1,3 +1,4 @@
+using InsuranceWebApplication.Middlewares;
 using InsuranceWebApplication.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
@@ -65,11 +66,9 @@ namespace InsuranceWebApplication
             }
 
             app.UseHttpsRedirection();
-
+            app.UseLogging("log.txt");
             app.UseAuthorization();
-
             app.MapControllers();
-
             app.Run();
         }
     }
