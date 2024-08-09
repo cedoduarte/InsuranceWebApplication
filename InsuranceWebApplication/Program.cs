@@ -1,5 +1,7 @@
 using InsuranceWebApplication.Middlewares;
 using InsuranceWebApplication.Models;
+using InsuranceWebApplication.Repositories;
+using InsuranceWebApplication.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 
@@ -31,6 +33,8 @@ namespace InsuranceWebApplication
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddTransient<IUserService, UserService>();
+            builder.Services.AddTransient<IUserRepository, UserRepository>();
 
             
             builder.Services.AddDbContext<IAppDbContext, AppDbContext>(options =>
@@ -67,7 +71,7 @@ namespace InsuranceWebApplication
 
             app.UseHttpsRedirection();
             app.UseLogging("log.txt");
-            app.UseAuthorization();
+            app.UseAuthorization(builder.Configuration["AuthorizationToken"]!);
             app.MapControllers();
             app.Run();
         }
