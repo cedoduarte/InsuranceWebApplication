@@ -26,14 +26,7 @@ namespace InsuranceWebApplication.Services
 
         public async Task<UserViewModel?> CreateAsync(CreateUserCommand command)
         {
-            try
-            {
-                return await _mediator.Send(command);
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            return await _mediator.Send(command);
         }
 
         public async Task<User?> UpdateAsync(User user)
