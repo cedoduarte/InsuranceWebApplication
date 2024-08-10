@@ -1,3 +1,6 @@
+using AutoMapper;
+using InsuranceWebApplication.AutoMapperProfile;
+using InsuranceWebApplication.CQRS.Users.Validators;
 using InsuranceWebApplication.Middlewares;
 using InsuranceWebApplication.Models;
 using InsuranceWebApplication.Repositories;
@@ -35,8 +38,18 @@ namespace InsuranceWebApplication
             builder.Services.AddSwaggerGen();
             builder.Services.AddTransient<IUserService, UserService>();
             builder.Services.AddTransient<IUserRepository, UserRepository>();
+            builder.Services.AddTransient<ICreateUserCommandValidator, CreateUserCommandValidator>();
 
-            
+            builder.Services.AddSingleton(new MapperConfiguration(configuration => 
+            {
+                configuration.AddProfile(new MappingProfile());
+            }).CreateMapper());
+
+            builder.Services.AddMediatR(configuration =>
+            {
+                configuration.RegisterServicesFromAssembly(typeof(Program).Assembly);
+            });
+
             builder.Services.AddDbContext<IAppDbContext, AppDbContext>(options =>
             {
                 string dbConnectionString = builder.Configuration.GetConnectionString(ConnectionStringName)!;

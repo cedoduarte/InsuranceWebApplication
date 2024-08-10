@@ -1,6 +1,5 @@
 using InsuranceWebApplication.Models;
 using InsuranceWebApplication.Repositories;
-using InsuranceWebApplication.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace Test
@@ -9,15 +8,13 @@ namespace Test
     public class UserServiceTest
     {
         private AppDbContext? _dbContext;
-        private UserRepository? _userRepository;
-        private UserService? _userService;
+        private IUserRepository? _userRepository;
 
         [TestInitialize]
         public void TestInitialize()
         {
             _dbContext = GetDbContext();
-            _userRepository = new UserRepository(_dbContext!);
-            _userService = new UserService(_userRepository);
+            _userRepository = new UserRepository(_dbContext);
         }
 
         private AppDbContext GetDbContext()
@@ -46,8 +43,8 @@ namespace Test
             };
 
             // Act
-            var insertedUser = await _userService!.CreateAsync(user);
-            var existingUser = await _userService!.GetByNameAsync("Carlos Duarte");
+            var insertedUser = await _userRepository!.CreateAsync(user);
+            var existingUser = await _userRepository!.GetByNameAsync("Carlos Duarte");
 
             // Assert
             Assert.IsNotNull(insertedUser);
@@ -60,11 +57,11 @@ namespace Test
         {
             // Arrange
             string newName = "Rodolfo";
-            var user = await _userService!.GetByIdAsync(1);
+            var user = await _userRepository!.GetByIdAsync(1);
             user!.FirstName = newName;
 
             // Act
-            var updatedUser = await _userService!.UpdateAsync(user!);
+            var updatedUser = await _userRepository!.UpdateAsync(user!);
 
             // Assert
             Assert.IsTrue(string.Equals(updatedUser!.FirstName, newName));
@@ -77,10 +74,10 @@ namespace Test
             int userId = 155;
 
             // Act
-            await _userService!.DeleteAsync(userId);
+            await _userRepository!.DeleteAsync(userId);
 
             // Assert
-            var deletedUser = await _userService.GetByIdAsync(userId);
+            var deletedUser = await _userRepository.GetByIdAsync(userId);
             Assert.IsTrue(deletedUser!.IsDeleted);
         }
 
@@ -88,7 +85,7 @@ namespace Test
         public async Task GetByNameAsync()
         {
             // Act
-            var userList = await _userService!.GetAllAsync();
+            var userList = await _userRepository!.GetAllAsync();
 
             // Assert
             Assert.IsTrue(userList.Count > 0);

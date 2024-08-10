@@ -1,4 +1,4 @@
-﻿using InsuranceWebApplication.Models;
+﻿using InsuranceWebApplication.CQRS.Users.Command.CreateUser;
 using InsuranceWebApplication.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,9 +16,16 @@ namespace InsuranceWebApplication.Controllers
         }
 
         [HttpPost("create")]
-        public async Task<IActionResult> CreateUser(User user)
+        public async Task<IActionResult> CreateUser(CreateUserCommand command)
         {
-            return Ok(await _userService.CreateAsync(user));
+            try
+            {
+                return Ok(await _userService.CreateAsync(command));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

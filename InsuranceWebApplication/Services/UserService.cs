@@ -1,11 +1,13 @@
-﻿using InsuranceWebApplication.Models;
-using InsuranceWebApplication.Repositories;
+﻿using InsuranceWebApplication.CQRS.Users.Command.CreateUser;
+using InsuranceWebApplication.CQRS.Users.ViewModel;
+using InsuranceWebApplication.Models;
+using MediatR;
 
 namespace InsuranceWebApplication.Services
 {
     public interface IUserService
     {
-        Task<User?> CreateAsync(User user);
+        Task<UserViewModel?> CreateAsync(CreateUserCommand command);
         Task<User?> UpdateAsync(User user);
         Task DeleteAsync(int id);
         Task<User?> GetByIdAsync(int id);
@@ -15,41 +17,53 @@ namespace InsuranceWebApplication.Services
 
     public class UserService : IUserService
     {
-        private readonly IUserRepository _repository;
+        private readonly IMediator _mediator;
 
-        public UserService(IUserRepository repository)
+        public UserService(IMediator mediator)
         {
-            _repository = repository;
+            _mediator = mediator;
         }
 
-        public async Task<User?> CreateAsync(User user)
+        public async Task<UserViewModel?> CreateAsync(CreateUserCommand command)
         {
-            return await _repository.CreateAsync(user);
+            try
+            {
+                return await _mediator.Send(command);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public async Task<User?> UpdateAsync(User user)
         {
-            return await _repository.UpdateAsync(user);
+            throw new NotImplementedException();
+            //return await _repository.UpdateAsync(user);
         }
 
         public async Task DeleteAsync(int id)
         {
-            await _repository.DeleteAsync(id);
+            throw new NotImplementedException();
+            //await _repository.DeleteAsync(id);
         }
 
         public async Task<User?> GetByIdAsync(int id)
         {
-            return await _repository.GetByIdAsync(id);
+            throw new NotImplementedException();
+            // return await _repository.GetByIdAsync(id);
         }
 
         public async Task<List<User>> GetAllAsync()
         {
-            return await _repository.GetAllAsync();
+            throw new NotImplementedException();
+            // return await _repository.GetAllAsync();
         }
 
         public async Task<User?> GetByNameAsync(string name)
         {
-            return await _repository.GetByNameAsync(name);
+            throw new NotImplementedException();
+            // return await _repository.GetByNameAsync(name);
         }
     }
 }
