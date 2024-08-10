@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Test
 {
     [TestClass]
-    public class UserServiceTest
+    public class UserRepositoryTest
     {
         private AppDbContext? _dbContext;
         private IUserRepository? _userRepository;

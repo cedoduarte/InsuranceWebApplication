@@ -24,51 +24,92 @@ namespace InsuranceWebApplication.Repositories
 
         public async Task<User?> CreateAsync(User user, CancellationToken cancel)
         {
-            var createdUser = await _dbContext.AddAsync(user, cancel);
-            await _dbContext.SaveChangesAsync(cancel);
-            return createdUser.Entity;
+            try
+            {
+                var createdUser = await _dbContext.AddAsync(user, cancel);
+                await _dbContext.SaveChangesAsync(cancel);
+                return createdUser.Entity;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public async Task<User?> UpdateAsync(User user, CancellationToken cancel)
         {
-            var updatedUser = _dbContext.Update(user);
-            await _dbContext.SaveChangesAsync(cancel);
-            return updatedUser.Entity;
+            try
+            {
+                var updatedUser = _dbContext.Update(user);
+                await _dbContext.SaveChangesAsync(cancel);
+                return updatedUser.Entity;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public async Task DeleteAsync(int id, CancellationToken cancel)
         {
-            User? user = await _dbContext.Users!
-                .Where(u => u.Id == id)
-                .FirstOrDefaultAsync(cancel);
-            if (user is null)
+            try
             {
-                return;
+
+                User? user = await _dbContext.Users!
+                    .Where(u => u.Id == id)
+                    .FirstOrDefaultAsync(cancel);
+                if (user is null)
+                {
+                    return;
+                }
+                user.IsDeleted = true;
+                await UpdateAsync(user, cancel);
+                await _dbContext.SaveChangesAsync(cancel);
             }
-            user.IsDeleted = true;
-            await UpdateAsync(user, cancel);
-            await _dbContext.SaveChangesAsync(cancel);
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public async Task<User?> GetByIdAsync(int id, CancellationToken cancel)
         {
-            User? user = await _dbContext.Users!
-                .Where(u => u.Id == id)
-                .FirstOrDefaultAsync(cancel);
-            return user;
+            try
+            {
+                User? user = await _dbContext.Users!.FindAsync(id, cancel);
+                return user;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public async Task<List<User>> GetAllAsync(CancellationToken cancel)
         {
-            return await _dbContext.Users!.ToListAsync(cancel);
+            try
+            {
+                return await _dbContext.Users!.ToListAsync(cancel);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public async Task<User?> GetByNameAsync(string name, CancellationToken cancel)
         {
-            User? user = await _dbContext.Users!
-                .Where(u => $"{u.FirstName} {u.LastName}".ToLower().Contains(name.ToLower()))
-                .FirstOrDefaultAsync(cancel);
-            return user;
+            try
+            {
+                User? user = await _dbContext.Users!
+                    .Where(u => $"{u.FirstName} {u.LastName}".ToLower().Contains(name.ToLower()))
+                    .FirstOrDefaultAsync(cancel);
+                return user;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }
