@@ -1,10 +1,17 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace InsuranceWebApplication.Utils
 {
     public static class Util
     {
+        public static bool IsValidHexColor(string hexColor)
+        {
+            string pattern = "^#[0-9A-Fa-f]{6}$";
+            return Regex.IsMatch(hexColor, pattern);
+        }
+
         public static bool IsValidEmail(string email)
         {
             try

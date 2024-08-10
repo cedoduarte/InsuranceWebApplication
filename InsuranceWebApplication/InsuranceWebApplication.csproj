@@ -18,4 +18,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CQRS\Cars\Command\DeleteCar\" />
+    <Folder Include="CQRS\Cars\Command\UpdateCar\" />
+    <Folder Include="CQRS\Cars\Query\GetCarById\" />
+    <Folder Include="CQRS\Cars\Query\GetCarList\" />
+  </ItemGroup>
+
 </Project>

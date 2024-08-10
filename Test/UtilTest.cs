@@ -6,6 +6,17 @@ namespace Test
     public class UtilTest
     {
         [TestMethod]
+        public void TestIsValidHexColor()
+        {
+            Assert.IsTrue(Util.IsValidHexColor("#FFFFFF"));
+            Assert.IsTrue(Util.IsValidHexColor("#000000"));
+            Assert.IsTrue(Util.IsValidHexColor("#FF5733"));
+            Assert.IsFalse(Util.IsValidHexColor("#ZZZZZZ"));
+            Assert.IsFalse(Util.IsValidHexColor("FFFFFF"));
+            Assert.IsFalse(Util.IsValidHexColor("#FFFFF"));
+        }
+
+        [TestMethod]
         public void TestToSha256()
         {
             string passwordHash = "5994471abb1112afcc18159f6cc74b4f511b9986da59b3caf5a9c173cacfc5";

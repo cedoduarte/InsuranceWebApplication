@@ -31,7 +31,7 @@ namespace Test
         public async Task TestCreateAsync()
         {
             // Arrange            
-            var user = new User()
+            User user = new User()
             {
                 FirstName = "Carlos",
                 LastName = "Duarte",
@@ -57,11 +57,11 @@ namespace Test
         {
             // Arrange
             string newName = "Rodolfo";
-            var user = await _userRepository!.GetByIdAsync(1);
+            User? user = await _userRepository!.GetByIdAsync(1);
             user!.FirstName = newName;
 
             // Act
-            var updatedUser = await _userRepository!.UpdateAsync(user!);
+            User? updatedUser = await _userRepository!.UpdateAsync(user!);
 
             // Assert
             Assert.IsTrue(string.Equals(updatedUser!.FirstName, newName));

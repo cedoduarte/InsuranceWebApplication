@@ -38,9 +38,7 @@ namespace InsuranceWebApplication.Repositories
 
         public async Task<User?> DeleteAsync(int id, CancellationToken cancel)
         {
-            User? user = await _dbContext.Users!
-                .Where(u => u.Id == id)
-                .FirstOrDefaultAsync(cancel);
+            User? user = await GetByIdAsync(id, cancel);
             if (user is null)
             {
                 return null;

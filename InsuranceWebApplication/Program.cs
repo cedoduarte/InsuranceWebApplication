@@ -1,5 +1,6 @@
 using AutoMapper;
 using InsuranceWebApplication.AutoMapperProfile;
+using InsuranceWebApplication.CQRS.Cars.Validators;
 using InsuranceWebApplication.CQRS.Users.Validators;
 using InsuranceWebApplication.Middlewares;
 using InsuranceWebApplication.Models;
@@ -36,10 +37,14 @@ namespace InsuranceWebApplication
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
             builder.Services.AddTransient<IUserService, UserService>();
+            builder.Services.AddTransient<ICarService, CarService>();
             builder.Services.AddTransient<IUserRepository, UserRepository>();
+            builder.Services.AddTransient<ICarRepository, CarRepository>();
             builder.Services.AddTransient<ICreateUserCommandValidator, CreateUserCommandValidator>();
             builder.Services.AddTransient<IUpdateUserCommandValidator, UpdateUserCommandValidator>();
+            builder.Services.AddTransient<ICreateCarCommandValidator, CreateCarCommandValidator>();
 
             builder.Services.AddSingleton(new MapperConfiguration(configuration => 
             {
