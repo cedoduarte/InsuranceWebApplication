@@ -27,36 +27,29 @@ namespace InsuranceWebApplication.CQRS.Users.Command.CreateUser
 
         public async Task<UserViewModel> Handle(CreateUserCommand command, CancellationToken cancel)
         {
-            try
+            _validator.Validate(command);
+            if (_validator.Errors.Any())
             {
-                _validator.Validate(command);
-                if (_validator.Errors.Count > 0)
+                StringBuilder builder = new StringBuilder();
+                foreach (string error in _validator.Errors)
                 {
-                    StringBuilder builder = new StringBuilder();
-                    foreach (string error in _validator.Errors)
-                    {
-                        builder.AppendLine(error);
-                    }
-                    throw new Exception(builder.ToString());
+                    builder.AppendLine(error);
                 }
-                User user = new User()
-                {
-                    FirstName = command.FirstName,
-                    LastName = command.LastName,
-                    Email = command.Email,
-                    PasswordHash = Util.ToSha256(command.Password!)
-                };
-                User? result = await _userRepository.CreateAsync(user, cancel);
-                if (result is null)
-                {
-                    throw new Exception("Error creating a new user!");
-                }
-                return _mapper.Map<UserViewModel>(result);
+                throw new Exception(builder.ToString());
             }
-            catch (Exception)
+            User user = new User()
             {
-                throw;
+                FirstName = command.FirstName!.Trim(),
+                LastName = command.LastName!.Trim(),
+                Email = command.Email!.Trim(),
+                PasswordHash = Util.ToSha256(command.Password!.Trim()!)
+            };
+            User? result = await _userRepository.CreateAsync(user, cancel);
+            if (result is null)
+            {
+                throw new Exception("Error creating a new user!");
             }
+            return _mapper.Map<UserViewModel>(result);
         }
     }
 }

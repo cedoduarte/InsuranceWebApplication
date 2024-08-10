@@ -1,6 +1,9 @@
 ﻿using InsuranceWebApplication.CQRS.Users.Command.CreateUser;
+using InsuranceWebApplication.CQRS.Users.Command.DeleteUser;
+using InsuranceWebApplication.CQRS.Users.Command.UpdateUser;
+using InsuranceWebApplication.CQRS.Users.Query.GetUserById;
+using InsuranceWebApplication.CQRS.Users.Query.GetUserList;
 using InsuranceWebApplication.CQRS.Users.ViewModel;
-using InsuranceWebApplication.Models;
 using MediatR;
 
 namespace InsuranceWebApplication.Services
@@ -8,11 +11,10 @@ namespace InsuranceWebApplication.Services
     public interface IUserService
     {
         Task<UserViewModel?> CreateAsync(CreateUserCommand command);
-        Task<User?> UpdateAsync(User user);
-        Task DeleteAsync(int id);
-        Task<User?> GetByIdAsync(int id);
-        Task<List<User>> GetAllAsync();
-        Task<User?> GetByNameAsync(string name);
+        Task<UserViewModel?> UpdateAsync(UpdateUserCommand command);
+        Task<UserViewModel?> DeleteAsync(int id);
+        Task<UserViewModel?> GetByIdAsync(int id);
+        Task<List<UserViewModel>> GetUserListAsync(GetUserListQuery query);
     }
 
     public class UserService : IUserService
@@ -29,34 +31,30 @@ namespace InsuranceWebApplication.Services
             return await _mediator.Send(command);
         }
 
-        public async Task<User?> UpdateAsync(User user)
+        public async Task<UserViewModel?> UpdateAsync(UpdateUserCommand command)
         {
-            throw new NotImplementedException();
-            //return await _repository.UpdateAsync(user);
+            return await _mediator.Send(command);
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task<UserViewModel?> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
-            //await _repository.DeleteAsync(id);
+            return await _mediator.Send(new DeleteUserCommand()
+            {
+                Id = id
+            });
         }
 
-        public async Task<User?> GetByIdAsync(int id)
+        public async Task<UserViewModel?> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
-            // return await _repository.GetByIdAsync(id);
-        }
+            return await _mediator.Send(new GetUserByIdQuery() 
+            {
+                Id = id
+            });
+        }     
 
-        public async Task<List<User>> GetAllAsync()
+        public async Task<List<UserViewModel>> GetUserListAsync(GetUserListQuery query)
         {
-            throw new NotImplementedException();
-            // return await _repository.GetAllAsync();
-        }
-
-        public async Task<User?> GetByNameAsync(string name)
-        {
-            throw new NotImplementedException();
-            // return await _repository.GetByNameAsync(name);
+            return await _mediator.Send(query);
         }
     }
 }

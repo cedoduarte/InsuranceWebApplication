@@ -43,8 +43,8 @@ namespace Test
             };
 
             // Act
-            var insertedUser = await _userRepository!.CreateAsync(user);
-            var existingUser = await _userRepository!.GetByNameAsync("Carlos Duarte");
+            User? insertedUser = await _userRepository!.CreateAsync(user);
+            User? existingUser = await _userRepository!.GetByIdAsync(insertedUser!.Id);
 
             // Assert
             Assert.IsNotNull(insertedUser);
@@ -74,21 +74,29 @@ namespace Test
             int userId = 155;
 
             // Act
-            await _userRepository!.DeleteAsync(userId);
+            User? deletedUser = await _userRepository!.DeleteAsync(userId);
+            User? user = await _userRepository.GetByIdAsync(userId);
 
             // Assert
-            var deletedUser = await _userRepository.GetByIdAsync(userId);
+            Assert.IsNull(user);
             Assert.IsTrue(deletedUser!.IsDeleted);
         }
 
         [TestMethod]
-        public async Task GetByNameAsync()
+        public async Task TestGetAllAsync()
         {
             // Act
             var userList = await _userRepository!.GetAllAsync();
 
             // Assert
-            Assert.IsTrue(userList.Count > 0);
+            Assert.IsTrue(userList.Any());
+        }
+
+        [TestMethod]
+        public async Task TestGetByKeyword()
+        {
+            List<User> userList = await _userRepository!.GetByKeyword("Pedro");
+            Assert.IsTrue(userList.Any());
         }
     }
 }

@@ -7,10 +7,10 @@ namespace InsuranceWebApplication.Repositories
     {
         Task<User?> CreateAsync(User user, CancellationToken cancel = default);
         Task<User?> UpdateAsync(User user, CancellationToken cancel = default);
-        Task DeleteAsync(int id, CancellationToken cancel = default);
+        Task<User?> DeleteAsync(int id, CancellationToken cancel = default);
         Task<User?> GetByIdAsync(int id, CancellationToken cancel = default);
         Task<List<User>> GetAllAsync(CancellationToken cancel = default);
-        Task<User?> GetByNameAsync(string name, CancellationToken cancel = default);
+        Task<List<User>> GetByKeyword(string keyword, CancellationToken cancel = default);
     }
 
     public class UserRepository : IUserRepository
@@ -36,37 +36,44 @@ namespace InsuranceWebApplication.Repositories
             return updatedUser.Entity;
         }
 
-        public async Task DeleteAsync(int id, CancellationToken cancel)
+        public async Task<User?> DeleteAsync(int id, CancellationToken cancel)
         {
             User? user = await _dbContext.Users!
-                    .Where(u => u.Id == id)
-                    .FirstOrDefaultAsync(cancel);
+                .Where(u => u.Id == id)
+                .FirstOrDefaultAsync(cancel);
             if (user is null)
             {
-                return;
+                return null;
             }
             user.IsDeleted = true;
             await UpdateAsync(user, cancel);
             await _dbContext.SaveChangesAsync(cancel);
+            return user;
         }
 
         public async Task<User?> GetByIdAsync(int id, CancellationToken cancel)
         {
-            User? user = await _dbContext.Users!.FindAsync(id, cancel);
-            return user;
+            return await _dbContext.Users!
+                .Where(u => u.Id == id && !u.IsDeleted)
+                .FirstOrDefaultAsync(cancel);
         }
 
         public async Task<List<User>> GetAllAsync(CancellationToken cancel)
         {
-            return await _dbContext.Users!.ToListAsync(cancel);
+            return await _dbContext.Users!
+                .Where(u => !u.IsDeleted)
+                .ToListAsync(cancel);
         }
 
-        public async Task<User?> GetByNameAsync(string name, CancellationToken cancel)
+        public async Task<List<User>> GetByKeyword(string keyword, CancellationToken cancel)
         {
-            User? user = await _dbContext.Users!
-                    .Where(u => $"{u.FirstName} {u.LastName}".ToLower().Contains(name.ToLower()))
-                    .FirstOrDefaultAsync(cancel);
-            return user;
+            return await _dbContext.Users!
+                .Where(u => !u.IsDeleted 
+                    && (Convert.ToString(u.Id).Contains(keyword)
+                    || u.FirstName!.Contains(keyword)
+                    || u.LastName!.Contains(keyword)
+                    || u.Email!.Contains(keyword)))
+                .ToListAsync(cancel);
         }
     }
 }

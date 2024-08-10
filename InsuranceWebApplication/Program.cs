@@ -39,6 +39,7 @@ namespace InsuranceWebApplication
             builder.Services.AddTransient<IUserService, UserService>();
             builder.Services.AddTransient<IUserRepository, UserRepository>();
             builder.Services.AddTransient<ICreateUserCommandValidator, CreateUserCommandValidator>();
+            builder.Services.AddTransient<IUpdateUserCommandValidator, UpdateUserCommandValidator>();
 
             builder.Services.AddSingleton(new MapperConfiguration(configuration => 
             {
