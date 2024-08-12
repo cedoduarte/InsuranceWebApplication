@@ -10,7 +10,8 @@ namespace InsuranceWebApplication.Repositories
         Task<Car?> DeleteAsync(int id, CancellationToken cancel = default);
         Task<Car?> GetByIdAsync(int id, CancellationToken cancel = default);
         Task<List<Car>> GetAllAsync(CancellationToken cancel = default);
-        Task<List<Car>> GetByKeyword(string keyword, CancellationToken cancel = default);
+        Task<List<Car>> GetByKeywordAsync(string keyword, CancellationToken cancel = default);
+        Task<bool> ExistAsync(int id, CancellationToken cancel = default);
     }
 
     public class CarRepository : ICarRepository
@@ -38,15 +39,15 @@ namespace InsuranceWebApplication.Repositories
 
         public async Task<Car?> DeleteAsync(int id, CancellationToken cancel)
         {
-            Car? car = await GetByIdAsync(id, cancel);
+            Car? car = await _dbContext.Cars!
+                .Where(c => c.Id == id && !c.IsDeleted)
+                .FirstOrDefaultAsync(cancel);
             if (car is null)
             {
                 throw new Exception($"The car with Id {id} does not exist");
             }
             car.IsDeleted = true;
-            await UpdateAsync(car, cancel);
-            await _dbContext.SaveChangesAsync(cancel);
-            return car;
+            return await UpdateAsync(car, cancel);
         }
 
         public async Task<Car?> GetByIdAsync(int id, CancellationToken cancel) 
@@ -65,17 +66,23 @@ namespace InsuranceWebApplication.Repositories
                 .ToListAsync(cancel);
         }
 
-        public async Task<List<Car>> GetByKeyword(string keyword, CancellationToken cancel)
+        public async Task<List<Car>> GetByKeywordAsync(string keyword, CancellationToken cancel)
         {
             return await _dbContext.Cars!
-                .Where(u => !u.IsDeleted
-                    && (Convert.ToString(u.Id).Contains(keyword)
-                    || u.Model!.Contains(keyword)
-                    || u.Color!.Contains(keyword)
-                    || u.Price!.ToString()!.Contains(keyword)
-                    || u.PlateNumber!.Contains(keyword)))
+                .Where(c => !c.IsDeleted
+                    && (Convert.ToString(c.Id).Contains(keyword)
+                    || c.Model!.Contains(keyword)
+                    || c.Color!.Contains(keyword)
+                    || c.Price!.ToString()!.Contains(keyword)
+                    || c.PlateNumber!.Contains(keyword)))
                 .AsNoTracking()
                 .ToListAsync(cancel);
+        }
+
+        public async Task<bool> ExistAsync(int id, CancellationToken cancel)
+        {
+            Car? car = await _dbContext.Cars!.FindAsync(id, cancel);
+            return car is not null;
         }
     }
 }

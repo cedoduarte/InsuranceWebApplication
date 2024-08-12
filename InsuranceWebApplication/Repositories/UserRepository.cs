@@ -10,7 +10,8 @@ namespace InsuranceWebApplication.Repositories
         Task<User?> DeleteAsync(int id, CancellationToken cancel = default);
         Task<User?> GetByIdAsync(int id, CancellationToken cancel = default);
         Task<List<User>> GetAllAsync(CancellationToken cancel = default);
-        Task<List<User>> GetByKeyword(string keyword, CancellationToken cancel = default);
+        Task<List<User>> GetByKeywordAsync(string keyword, CancellationToken cancel = default);
+        Task<bool> ExistAsync(int id, CancellationToken cancel = default);
     }
 
     public class UserRepository : IUserRepository
@@ -38,15 +39,15 @@ namespace InsuranceWebApplication.Repositories
 
         public async Task<User?> DeleteAsync(int id, CancellationToken cancel)
         {
-            User? user = await GetByIdAsync(id, cancel);
+            User? user = await _dbContext.Users!
+                .Where(u => u.Id == id && !u.IsDeleted)
+                .FirstOrDefaultAsync(cancel);
             if (user is null)
             {
                 throw new Exception($"The user with Id {id} does not exist");
             }
             user.IsDeleted = true;
-            await UpdateAsync(user, cancel);
-            await _dbContext.SaveChangesAsync(cancel);
-            return user;
+            return await UpdateAsync(user, cancel);
         }
 
         public async Task<User?> GetByIdAsync(int id, CancellationToken cancel)
@@ -65,7 +66,7 @@ namespace InsuranceWebApplication.Repositories
                 .ToListAsync(cancel);
         }
 
-        public async Task<List<User>> GetByKeyword(string keyword, CancellationToken cancel)
+        public async Task<List<User>> GetByKeywordAsync(string keyword, CancellationToken cancel)
         {
             return await _dbContext.Users!
                 .Where(u => !u.IsDeleted 
@@ -75,6 +76,12 @@ namespace InsuranceWebApplication.Repositories
                     || u.Email!.Contains(keyword)))
                 .AsNoTracking()
                 .ToListAsync(cancel);
+        }
+
+        public async Task<bool> ExistAsync(int id, CancellationToken cancel)
+        {
+            User? user = await _dbContext.Users!.FindAsync(id, cancel);
+            return user is not null;
         }
     }
 }

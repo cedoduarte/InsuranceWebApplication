@@ -1,7 +1,6 @@
 ﻿using InsuranceWebApplication.Models;
 using InsuranceWebApplication.Repositories;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Identity.Client;
 
 namespace Test
 {
@@ -12,18 +11,18 @@ namespace Test
         private ICarRepository? _carRepository;
 
         [TestInitialize]
-        public void TestInitialize()
+        public async Task TestInitialize()
         {
-            _dbContext = GetDbContext();
+            _dbContext = await GetDbContext();
             _carRepository = new CarRepository(_dbContext);
         }
 
-        private AppDbContext GetDbContext()
+        private async Task<AppDbContext> GetDbContext()
         {
             var builder = new DbContextOptionsBuilder<AppDbContext>()
                 .UseInMemoryDatabase(Guid.NewGuid().ToString()).Options;
             var dbContext = new AppDbContext(builder);
-            dbContext.Database.EnsureCreated();
+            await dbContext.Database.EnsureCreatedAsync();
             DbSeeder.DoSeeding(dbContext);
             return dbContext;
         }
@@ -54,7 +53,9 @@ namespace Test
         public async Task TestUpdateAsync()
         {
             decimal newPrice = 15000.0m;
-            Car? car = await _carRepository!.GetByIdAsync(1);
+            Car? car = await _dbContext!.Cars!
+                .Where(c => c.Id == 1)
+                .FirstOrDefaultAsync();
             car!.Price = newPrice;
             Car? updatedCar = await _carRepository!.UpdateAsync(car!);
             Assert.IsTrue(updatedCar!.Price == newPrice);
@@ -78,10 +79,17 @@ namespace Test
         }
 
         [TestMethod]
-        public async Task TestGetByKeyword()
+        public async Task TestGetByKeywordAsync()
         {
-            List<Car> carList = await _carRepository!.GetByKeyword("1990");
+            List<Car> carList = await _carRepository!.GetByKeywordAsync("1990");
             Assert.IsTrue(carList.Any());
+        }
+
+        [TestMethod]
+        public async Task TestExistAsync()
+        {
+            bool exist = await _carRepository!.ExistAsync(1);
+            Assert.IsTrue(exist);
         }
     }
 }

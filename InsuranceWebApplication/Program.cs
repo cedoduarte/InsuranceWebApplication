@@ -1,6 +1,7 @@
 using AutoMapper;
 using InsuranceWebApplication.AutoMapperProfile;
 using InsuranceWebApplication.CQRS.Cars.Validators;
+using InsuranceWebApplication.CQRS.Insurances.Validators;
 using InsuranceWebApplication.CQRS.Users.Validators;
 using InsuranceWebApplication.Middlewares;
 using InsuranceWebApplication.Models;
@@ -40,12 +41,16 @@ namespace InsuranceWebApplication
 
             builder.Services.AddTransient<IUserService, UserService>();
             builder.Services.AddTransient<ICarService, CarService>();
+            builder.Services.AddTransient<IInsuranceService, InsuranceService>();
             builder.Services.AddTransient<IUserRepository, UserRepository>();
             builder.Services.AddTransient<ICarRepository, CarRepository>();
+            builder.Services.AddTransient<IInsuranceRepository, InsuranceRepository>();
+            builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
             builder.Services.AddTransient<ICreateUserCommandValidator, CreateUserCommandValidator>();
             builder.Services.AddTransient<IUpdateUserCommandValidator, UpdateUserCommandValidator>();
             builder.Services.AddTransient<ICreateCarCommandValidator, CreateCarCommandValidator>();
             builder.Services.AddTransient<IUpdateCarCommandValidator, UpdateCarCommandValidator>();
+            builder.Services.AddTransient<ICreateInsuranceCommandValidator, CreateInsuranceCommandValidator>();
 
             builder.Services.AddSingleton(new MapperConfiguration(configuration => 
             {

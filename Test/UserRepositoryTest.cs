@@ -11,18 +11,18 @@ namespace Test
         private IUserRepository? _userRepository;
 
         [TestInitialize]
-        public void TestInitialize()
+        public async Task TestInitialize()
         {
-            _dbContext = GetDbContext();
+            _dbContext = await GetDbContext();
             _userRepository = new UserRepository(_dbContext);
         }
 
-        private AppDbContext GetDbContext()
+        private async Task<AppDbContext> GetDbContext()
         {
             var builder = new DbContextOptionsBuilder<AppDbContext>()
                 .UseInMemoryDatabase(Guid.NewGuid().ToString()).Options;
             var dbContext = new AppDbContext(builder);
-            dbContext.Database.EnsureCreated();
+            await dbContext.Database.EnsureCreatedAsync();
             DbSeeder.DoSeeding(dbContext);
             return dbContext;
         }
@@ -57,7 +57,9 @@ namespace Test
         {
             // Arrange
             string newName = "Rodolfo";
-            User? user = await _userRepository!.GetByIdAsync(1);
+            User? user = await _dbContext!.Users!
+                .Where(u => u.Id == 1)
+                .FirstOrDefaultAsync();
             user!.FirstName = newName;
 
             // Act
@@ -93,10 +95,17 @@ namespace Test
         }
 
         [TestMethod]
-        public async Task TestGetByKeyword()
+        public async Task TestGetByKeywordAsync()
         {
-            List<User> userList = await _userRepository!.GetByKeyword("Pedro");
+            List<User> userList = await _userRepository!.GetByKeywordAsync("Pedro");
             Assert.IsTrue(userList.Any());
+        }
+
+        [TestMethod]
+        public async Task TestExistAsync()
+        {
+            bool exist = await _userRepository!.ExistAsync(1);
+            Assert.IsTrue(exist);
         }
     }
 }

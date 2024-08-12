@@ -46,7 +46,7 @@ namespace InsuranceWebApplication.CQRS.Cars.Command.CreateCar
             Car? result = await _carRepository.CreateAsync(car, cancel);
             if (result is null)
             {
-                throw new Exception("Error creating a new car!");
+                throw new Exception("Error creating a new car");
             }
             return _mapper.Map<CarViewModel>(result);
         }
