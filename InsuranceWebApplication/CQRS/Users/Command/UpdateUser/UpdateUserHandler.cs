@@ -46,6 +46,7 @@ namespace InsuranceWebApplication.CQRS.Users.Command.UpdateUser
             user.LastName = command.LastName!.Trim();
             user.Email = command.Email!.Trim();
             user.PasswordHash = Util.ToSha256(command.Password!.Trim());
+            user.LastModified = DateTime.UtcNow;
             User? updatedUser = await _userRepository.UpdateAsync(user, cancel);
             if (updatedUser is null)
             {

@@ -41,7 +41,7 @@ namespace InsuranceWebApplication.Repositories
             Car? car = await GetByIdAsync(id, cancel);
             if (car is null)
             {
-                return null;
+                throw new Exception($"The car with Id {id} does not exist");
             }
             car.IsDeleted = true;
             await UpdateAsync(car, cancel);
@@ -53,6 +53,7 @@ namespace InsuranceWebApplication.Repositories
         {
             return await _dbContext.Cars!
                 .Where(c => c.Id == id && !c.IsDeleted)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(cancel);
         }
 
@@ -60,6 +61,7 @@ namespace InsuranceWebApplication.Repositories
         {
             return await _dbContext.Cars!
                 .Where(c => !c.IsDeleted)
+                .AsNoTracking()
                 .ToListAsync(cancel);
         }
 
@@ -70,8 +72,9 @@ namespace InsuranceWebApplication.Repositories
                     && (Convert.ToString(u.Id).Contains(keyword)
                     || u.Model!.Contains(keyword)
                     || u.Color!.Contains(keyword)
-                    || Convert.ToString(u.Price).Contains(keyword)
+                    || u.Price!.ToString()!.Contains(keyword)
                     || u.PlateNumber!.Contains(keyword)))
+                .AsNoTracking()
                 .ToListAsync(cancel);
         }
     }

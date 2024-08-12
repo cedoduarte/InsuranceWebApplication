@@ -14,7 +14,7 @@ namespace InsuranceWebApplication.Services
         Task<UserViewModel?> UpdateAsync(UpdateUserCommand command);
         Task<UserViewModel?> DeleteAsync(int id);
         Task<UserViewModel?> GetByIdAsync(int id);
-        Task<List<UserViewModel>> GetUserListAsync(GetUserListQuery query);
+        Task<List<UserViewModel>> GetListAsync(GetUserListQuery query);
     }
 
     public class UserService : IUserService
@@ -52,7 +52,7 @@ namespace InsuranceWebApplication.Services
             });
         }     
 
-        public async Task<List<UserViewModel>> GetUserListAsync(GetUserListQuery query)
+        public async Task<List<UserViewModel>> GetListAsync(GetUserListQuery query)
         {
             return await _mediator.Send(query);
         }

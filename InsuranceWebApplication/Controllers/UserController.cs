@@ -30,13 +30,20 @@ namespace InsuranceWebApplication.Controllers
             }
         }
 
-        [HttpDelete("delete/{id}")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            return Ok(await _userService.DeleteAsync(id));
+            try
+            {
+                return Ok(await _userService.DeleteAsync(id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-        [HttpPut("update")]
+        [HttpPut]
         public async Task<IActionResult> UpdateUser(UpdateUserCommand command)
         {
             try
@@ -67,7 +74,7 @@ namespace InsuranceWebApplication.Controllers
         {
             try
             {
-                return Ok(await _userService.GetUserListAsync(query));
+                return Ok(await _userService.GetListAsync(query));
             }
             catch (Exception ex)
             {

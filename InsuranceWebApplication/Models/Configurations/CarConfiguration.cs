@@ -14,6 +14,7 @@ namespace InsuranceWebApplication.Models.Configurations
             builder.Property(c => c.LastModified).IsRequired().HasColumnType("DATETIME2");
             builder.Property(c => c.IsDeleted).IsRequired().HasColumnType("BIT");
             builder.Property(c => c.LastDeleted).IsRequired().HasColumnType("DATETIME2");
+            builder.Property(c => c.LastCreated).IsRequired().HasColumnType("DATETIME2");
         }
     }
 }

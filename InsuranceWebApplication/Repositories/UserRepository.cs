@@ -41,7 +41,7 @@ namespace InsuranceWebApplication.Repositories
             User? user = await GetByIdAsync(id, cancel);
             if (user is null)
             {
-                return null;
+                throw new Exception($"The user with Id {id} does not exist");
             }
             user.IsDeleted = true;
             await UpdateAsync(user, cancel);
@@ -53,6 +53,7 @@ namespace InsuranceWebApplication.Repositories
         {
             return await _dbContext.Users!
                 .Where(u => u.Id == id && !u.IsDeleted)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(cancel);
         }
 
@@ -60,6 +61,7 @@ namespace InsuranceWebApplication.Repositories
         {
             return await _dbContext.Users!
                 .Where(u => !u.IsDeleted)
+                .AsNoTracking()
                 .ToListAsync(cancel);
         }
 
@@ -71,6 +73,7 @@ namespace InsuranceWebApplication.Repositories
                     || u.FirstName!.Contains(keyword)
                     || u.LastName!.Contains(keyword)
                     || u.Email!.Contains(keyword)))
+                .AsNoTracking()
                 .ToListAsync(cancel);
         }
     }
