@@ -11,16 +11,16 @@ namespace InsuranceWebApplication.CQRS.Users.Command.CreateUser
 {
     public class CreateUserHandler : IRequestHandler<CreateUserCommand, UserViewModel>
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly ICreateUserCommandValidator _validator;
 
         public CreateUserHandler(
-            IUserRepository userRepository, 
+            IUnitOfWork unitOfWork, 
             IMapper mapper, 
             ICreateUserCommandValidator validator)
         {
-            _userRepository = userRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
             _validator = validator;
         }
@@ -44,7 +44,7 @@ namespace InsuranceWebApplication.CQRS.Users.Command.CreateUser
                 Email = command.Email!.Trim(),
                 PasswordHash = Util.ToSha256(command.Password!.Trim()!)
             };
-            User? result = await _userRepository.CreateAsync(user, cancel);
+            User? result = await _unitOfWork.UserRepository.CreateAsync(user, cancel);
             if (result is null)
             {
                 throw new Exception("Error creating a new user!");

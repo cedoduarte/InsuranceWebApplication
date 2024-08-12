@@ -11,16 +11,16 @@ namespace InsuranceWebApplication.CQRS.Users.Command.UpdateUser
 {
     public class UpdateUserHandler : IRequestHandler<UpdateUserCommand, UserViewModel>
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly IUpdateUserCommandValidator _validator;
         
         public UpdateUserHandler(
-            IUserRepository userRepository, 
+            IUnitOfWork unitOfWork, 
             IMapper mapper, 
             IUpdateUserCommandValidator validator)
         {
-            _userRepository = userRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
             _validator = validator;
         }
@@ -37,7 +37,7 @@ namespace InsuranceWebApplication.CQRS.Users.Command.UpdateUser
                 }
                 throw new Exception(builder.ToString());
             }
-            User? user = await _userRepository.GetByIdAsync(command.Id, cancel);
+            User? user = await _unitOfWork.UserRepository.GetByIdAsync(command.Id, cancel);
             if (user is null)
             {
                 throw new Exception($"The user with Id {command.Id} does not exist");
@@ -47,7 +47,7 @@ namespace InsuranceWebApplication.CQRS.Users.Command.UpdateUser
             user.Email = command.Email!.Trim();
             user.PasswordHash = Util.ToSha256(command.Password!.Trim());
             user.LastModified = DateTime.UtcNow;
-            User? updatedUser = await _userRepository.UpdateAsync(user, cancel);
+            User? updatedUser = await _unitOfWork.UserRepository.UpdateAsync(user, cancel);
             if (updatedUser is null)
             {
                 throw new Exception("Error updating the user");

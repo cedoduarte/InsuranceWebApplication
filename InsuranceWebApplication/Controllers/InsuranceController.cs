@@ -1,4 +1,5 @@
 ﻿using InsuranceWebApplication.CQRS.Insurances.Command.CreateInsurance;
+using InsuranceWebApplication.CQRS.Insurances.Command.UpdateInsurance;
 using InsuranceWebApplication.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,6 +22,32 @@ namespace InsuranceWebApplication.Controllers
             try
             {
                 return Ok(await _insuranceService.CreateAsync(command));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteInsurance(int id)
+        {
+            try
+            {
+                return Ok(await _insuranceService.DeleteAsync(id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateInsurance(UpdateInsuranceCommand command)
+        {
+            try
+            {
+                return Ok(await _insuranceService.UpdateAsync(command));
             }
             catch (Exception ex)
             {

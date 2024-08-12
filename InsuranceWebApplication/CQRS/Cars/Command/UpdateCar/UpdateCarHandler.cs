@@ -10,16 +10,16 @@ namespace InsuranceWebApplication.CQRS.Cars.Command.UpdateCar
 {
     public class UpdateCarHandler : IRequestHandler<UpdateCarCommand, CarViewModel>
     {
-        private readonly ICarRepository _carRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly IUpdateCarCommandValidator _validator;
 
         public UpdateCarHandler(
-            ICarRepository carRepository,
+            IUnitOfWork unitOfWork,
             IMapper mapper,
             IUpdateCarCommandValidator validator)
         {
-            _carRepository = carRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
             _validator = validator;
         }
@@ -36,7 +36,7 @@ namespace InsuranceWebApplication.CQRS.Cars.Command.UpdateCar
                 }
                 throw new Exception(builder.ToString());
             }
-            Car? car = await _carRepository.GetByIdAsync(command.Id, cancel);
+            Car? car = await _unitOfWork.CarRepository.GetByIdAsync(command.Id, cancel);
             if (car is null)
             {
                 throw new Exception($"The car with Id {command.Id} does not exist");
@@ -46,7 +46,7 @@ namespace InsuranceWebApplication.CQRS.Cars.Command.UpdateCar
             car.Price = command.Price;
             car.PlateNumber = command.PlateNumber;
             car.LastModified = DateTime.UtcNow;
-            Car? updatedCar = await _carRepository.UpdateAsync(car, cancel);
+            Car? updatedCar = await _unitOfWork.CarRepository.UpdateAsync(car, cancel);
             if (updatedCar is null)
             {
                 throw new Exception("Error updating the car");

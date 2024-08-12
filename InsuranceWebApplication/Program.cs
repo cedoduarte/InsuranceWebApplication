@@ -51,6 +51,7 @@ namespace InsuranceWebApplication
             builder.Services.AddTransient<ICreateCarCommandValidator, CreateCarCommandValidator>();
             builder.Services.AddTransient<IUpdateCarCommandValidator, UpdateCarCommandValidator>();
             builder.Services.AddTransient<ICreateInsuranceCommandValidator, CreateInsuranceCommandValidator>();
+            builder.Services.AddTransient<IUpdateInsuranceCommandValidator, UpdateInsuranceCommandValidator>();
 
             builder.Services.AddSingleton(new MapperConfiguration(configuration => 
             {

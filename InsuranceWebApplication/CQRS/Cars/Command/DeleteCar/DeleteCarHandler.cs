@@ -8,18 +8,18 @@ namespace InsuranceWebApplication.CQRS.Cars.Command.DeleteCar
 {
     public class DeleteCarHandler : IRequestHandler<DeleteCarCommand, CarViewModel>
     {
-        private readonly ICarRepository _carRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public DeleteCarHandler(ICarRepository carRepository, IMapper mapper)
+        public DeleteCarHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            _carRepository = carRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
         public async Task<CarViewModel> Handle(DeleteCarCommand command, CancellationToken cancel)
         {
-            Car? result = await _carRepository.DeleteAsync(command.Id, cancel);
+            Car? result = await _unitOfWork.CarRepository.DeleteAsync(command.Id, cancel);
             return _mapper.Map<CarViewModel>(result);
         }
     }

@@ -4,9 +4,7 @@ using InsuranceWebApplication.CQRS.Insurances.ViewModel;
 using InsuranceWebApplication.Models;
 using InsuranceWebApplication.Repositories;
 using MediatR;
-using Microsoft.Identity.Client;
 using System.Text;
-using System.Threading.Channels;
 
 namespace InsuranceWebApplication.CQRS.Insurances.Command.CreateInsurance
 {

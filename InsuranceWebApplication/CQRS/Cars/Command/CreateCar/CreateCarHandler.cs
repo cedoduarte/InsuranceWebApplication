@@ -10,16 +10,16 @@ namespace InsuranceWebApplication.CQRS.Cars.Command.CreateCar
 {
     public class CreateCarHandler : IRequestHandler<CreateCarCommand, CarViewModel>
     {
-        private readonly ICarRepository _carRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly ICreateCarCommandValidator _validator;
 
         public CreateCarHandler(
-            ICarRepository carRepository,
+            IUnitOfWork unitOfWork,
             IMapper mapper,
             ICreateCarCommandValidator validator)
         {
-            _carRepository = carRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
             _validator = validator;
         }
@@ -43,7 +43,7 @@ namespace InsuranceWebApplication.CQRS.Cars.Command.CreateCar
                 Price = command.Price!,
                 PlateNumber = command.PlateNumber!.Trim()
             };
-            Car? result = await _carRepository.CreateAsync(car, cancel);
+            Car? result = await _unitOfWork.CarRepository.CreateAsync(car, cancel);
             if (result is null)
             {
                 throw new Exception("Error creating a new car");
