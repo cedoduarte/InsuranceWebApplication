@@ -30,7 +30,7 @@ namespace InsuranceWebApplication.CQRS.Cars.Query.GetCarList
                 throw new Exception("The keyword is empty");
             }
             string keyword = query.Keyword.ToLower().Trim();
-            carList = await _unitOfWork.CarRepository.GetByKeywordAsync(keyword);
+            carList = await _unitOfWork.CarRepository.GetByKeywordAsync(keyword, cancel);
             return _mapper.Map<List<CarViewModel>>(carList);
         }
     }

@@ -86,6 +86,8 @@ namespace InsuranceWebApplication.Repositories
                     || i.Car!.Color!.Contains(keyword)
                     || i.Car.Price!.ToString()!.Contains(keyword)
                     || i.Car.PlateNumber!.Contains(keyword)))
+                .Include(i => i.Car)
+                .Include(i => i.User)
                 .AsNoTracking()
                 .ToListAsync(cancel);
         }

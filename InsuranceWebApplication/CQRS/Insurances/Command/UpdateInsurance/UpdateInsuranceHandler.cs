@@ -4,7 +4,6 @@ using InsuranceWebApplication.CQRS.Insurances.ViewModel;
 using InsuranceWebApplication.Models;
 using InsuranceWebApplication.Repositories;
 using MediatR;
-using Microsoft.Identity.Client;
 using System.Text;
 
 namespace InsuranceWebApplication.CQRS.Insurances.Command.UpdateInsurance

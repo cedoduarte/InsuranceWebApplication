@@ -1,5 +1,6 @@
 ﻿using InsuranceWebApplication.CQRS.Insurances.Command.CreateInsurance;
 using InsuranceWebApplication.CQRS.Insurances.Command.UpdateInsurance;
+using InsuranceWebApplication.CQRS.Insurances.Query.GetInsuranceList;
 using InsuranceWebApplication.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -48,6 +49,32 @@ namespace InsuranceWebApplication.Controllers
             try
             {
                 return Ok(await _insuranceService.UpdateAsync(command));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetInsuranceById(int id)
+        {
+            try
+            {
+                return Ok(await _insuranceService.GetByIdAsync(id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("list")]
+        public async Task<IActionResult> GetInsuranceList([FromQuery] GetInsuranceListQuery query)
+        {
+            try
+            {
+                return Ok(await _insuranceService.GetListAsync(query));
             }
             catch (Exception ex)
             {

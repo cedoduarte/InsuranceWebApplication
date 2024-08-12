@@ -30,7 +30,7 @@ namespace InsuranceWebApplication.CQRS.Users.Query.GetUserList
                 throw new Exception("The keyword is empty");
             }
             string keyword = query.Keyword.ToLower().Trim();
-            userList = await _unitOfWork.UserRepository.GetByKeywordAsync(keyword);
+            userList = await _unitOfWork.UserRepository.GetByKeywordAsync(keyword, cancel);
             return _mapper.Map<List<UserViewModel>>(userList);
         }
     }
