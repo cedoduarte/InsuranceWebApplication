@@ -20,28 +20,8 @@
             _insuranceRepository = insuranceRepository;
         }
 
-        public ICarRepository CarRepository
-        {
-            get 
-            {
-                return _carRepository;
-            }
-        }
-
-        public IUserRepository UserRepository
-        {
-            get
-            {
-                return _userRepository;
-            }
-        }
-
-        public IInsuranceRepository InsuranceRepository 
-        {
-            get
-            {
-                return _insuranceRepository;
-            }
-        }
+        public ICarRepository CarRepository { get => _carRepository; }
+        public IUserRepository UserRepository { get => _userRepository; }
+        public IInsuranceRepository InsuranceRepository { get => _insuranceRepository; }
     }
 }

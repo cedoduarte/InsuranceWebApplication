@@ -4,6 +4,7 @@ using InsuranceWebApplication.CQRS.Users.Command.UpdateUser;
 using InsuranceWebApplication.CQRS.Users.Query.GetUserById;
 using InsuranceWebApplication.CQRS.Users.Query.GetUserList;
 using InsuranceWebApplication.CQRS.Users.ViewModel;
+using InsuranceWebApplication.Dtos;
 using MediatR;
 
 namespace InsuranceWebApplication.Services
@@ -14,7 +15,7 @@ namespace InsuranceWebApplication.Services
         Task<UserViewModel?> UpdateAsync(UpdateUserCommand command);
         Task<UserViewModel?> DeleteAsync(int id);
         Task<UserViewModel?> GetByIdAsync(int id);
-        Task<List<UserViewModel>> GetListAsync(GetUserListQuery query);
+        Task<UserListResultDto> GetListAsync(GetUserListQuery query);
     }
 
     public class UserService : IUserService
@@ -38,21 +39,15 @@ namespace InsuranceWebApplication.Services
 
         public async Task<UserViewModel?> DeleteAsync(int id)
         {
-            return await _mediator.Send(new DeleteUserCommand()
-            {
-                Id = id
-            });
+            return await _mediator.Send(new DeleteUserCommand() { Id = id });
         }
 
         public async Task<UserViewModel?> GetByIdAsync(int id)
         {
-            return await _mediator.Send(new GetUserByIdQuery() 
-            {
-                Id = id
-            });
+            return await _mediator.Send(new GetUserByIdQuery() { Id = id });
         }     
 
-        public async Task<List<UserViewModel>> GetListAsync(GetUserListQuery query)
+        public async Task<UserListResultDto> GetListAsync(GetUserListQuery query)
         {
             return await _mediator.Send(query);
         }

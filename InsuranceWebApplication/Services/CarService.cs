@@ -4,6 +4,7 @@ using InsuranceWebApplication.CQRS.Cars.Command.UpdateCar;
 using InsuranceWebApplication.CQRS.Cars.Query.GetCarById;
 using InsuranceWebApplication.CQRS.Cars.Query.GetCarList;
 using InsuranceWebApplication.CQRS.Cars.ViewModel;
+using InsuranceWebApplication.Dtos;
 using MediatR;
 
 namespace InsuranceWebApplication.Services
@@ -14,7 +15,7 @@ namespace InsuranceWebApplication.Services
         Task<CarViewModel?> UpdateAsync(UpdateCarCommand command);
         Task<CarViewModel?> DeleteAsync(int id);
         Task<CarViewModel?> GetByIdAsync(int id);
-        Task<List<CarViewModel>> GetListAsync(GetCarListQuery query);
+        Task<CarListResultDto> GetListAsync(GetCarListQuery query);
     }
 
     public class CarService : ICarService
@@ -38,21 +39,15 @@ namespace InsuranceWebApplication.Services
 
         public async Task<CarViewModel?> DeleteAsync(int id)
         {
-            return await _mediator.Send(new DeleteCarCommand()
-            {
-                Id = id
-            });
+            return await _mediator.Send(new DeleteCarCommand() { Id = id });
         }
 
         public async Task<CarViewModel?> GetByIdAsync(int id)
         {
-            return await _mediator.Send(new GetCarByIdQuery() 
-            {
-                Id = id
-            });
+            return await _mediator.Send(new GetCarByIdQuery() { Id = id });
         }
 
-        public async Task<List<CarViewModel>> GetListAsync(GetCarListQuery query)
+        public async Task<CarListResultDto> GetListAsync(GetCarListQuery query)
         {
             return await _mediator.Send(query);
         }

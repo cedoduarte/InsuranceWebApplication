@@ -4,6 +4,7 @@ using InsuranceWebApplication.CQRS.Insurances.Command.UpdateInsurance;
 using InsuranceWebApplication.CQRS.Insurances.Query.GetInsuranceById;
 using InsuranceWebApplication.CQRS.Insurances.Query.GetInsuranceList;
 using InsuranceWebApplication.CQRS.Insurances.ViewModel;
+using InsuranceWebApplication.Dtos;
 using MediatR;
 
 namespace InsuranceWebApplication.Services
@@ -14,7 +15,7 @@ namespace InsuranceWebApplication.Services
         Task<InsuranceViewModel?> UpdateAsync(UpdateInsuranceCommand command);
         Task<InsuranceViewModel?> DeleteAsync(int id);
         Task<InsuranceViewModel?> GetByIdAsync(int id);
-        Task<List<InsuranceViewModel>> GetListAsync(GetInsuranceListQuery query);
+        Task<InsuranceListResultDto> GetListAsync(GetInsuranceListQuery query);
     }
 
     public class InsuranceService : IInsuranceService
@@ -38,21 +39,15 @@ namespace InsuranceWebApplication.Services
 
         public async Task<InsuranceViewModel?> DeleteAsync(int id)
         {
-            return await _mediator.Send(new DeleteInsuranceCommand()
-            {
-                Id = id
-            });
+            return await _mediator.Send(new DeleteInsuranceCommand() { Id = id });
         }
 
         public async Task<InsuranceViewModel?> GetByIdAsync(int id)
         {
-            return await _mediator.Send(new GetInsuranceByIdQuery() 
-            {
-                Id = id
-            });
+            return await _mediator.Send(new GetInsuranceByIdQuery() { Id = id });
         }
 
-        public async Task<List<InsuranceViewModel>> GetListAsync(GetInsuranceListQuery query)
+        public async Task<InsuranceListResultDto> GetListAsync(GetInsuranceListQuery query)
         {
             return await _mediator.Send(query);
         }

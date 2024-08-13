@@ -9,9 +9,10 @@ namespace InsuranceWebApplication.Repositories
         Task<Car?> UpdateAsync(Car car, CancellationToken cancel = default);
         Task<Car?> DeleteAsync(int id, CancellationToken cancel = default);
         Task<Car?> GetByIdAsync(int id, CancellationToken cancel = default);
-        Task<List<Car>> GetAllAsync(CancellationToken cancel = default);
-        Task<List<Car>> GetByKeywordAsync(string keyword, CancellationToken cancel = default);
+        Task<List<Car>> GetAllAsync(int pageNumber = 1, int pageSize = 10, CancellationToken cancel = default);
+        Task<List<Car>> GetByKeywordAsync(string keyword, int pageNumber = 1, int pageSize = 10, CancellationToken cancel = default);
         Task<bool> ExistAsync(int id, CancellationToken cancel = default);
+        Task<int> CountAsync(CancellationToken cancel = default);
     }
 
     public class CarRepository : ICarRepository
@@ -58,15 +59,17 @@ namespace InsuranceWebApplication.Repositories
                 .FirstOrDefaultAsync(cancel);
         }
 
-        public async Task<List<Car>> GetAllAsync(CancellationToken cancel)
+        public async Task<List<Car>> GetAllAsync(int pageNumber, int pageSize, CancellationToken cancel)
         {
             return await _dbContext.Cars!
                 .Where(c => !c.IsDeleted)
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
                 .AsNoTracking()
                 .ToListAsync(cancel);
         }
 
-        public async Task<List<Car>> GetByKeywordAsync(string keyword, CancellationToken cancel)
+        public async Task<List<Car>> GetByKeywordAsync(string keyword, int pageNumber, int pageSize, CancellationToken cancel)
         {
             return await _dbContext.Cars!
                 .Where(c => !c.IsDeleted
@@ -75,6 +78,8 @@ namespace InsuranceWebApplication.Repositories
                     || c.Color!.Contains(keyword)
                     || c.Price!.ToString()!.Contains(keyword)
                     || c.PlateNumber!.Contains(keyword)))
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
                 .AsNoTracking()
                 .ToListAsync(cancel);
         }
@@ -83,6 +88,11 @@ namespace InsuranceWebApplication.Repositories
         {
             Car? car = await _dbContext.Cars!.FindAsync(id, cancel);
             return car is not null;
+        }
+
+        public async Task<int> CountAsync(CancellationToken cancel)
+        {
+            return await _dbContext.Users!.CountAsync(cancel);
         }
     }
 }

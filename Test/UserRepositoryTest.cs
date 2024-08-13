@@ -107,5 +107,11 @@ namespace Test
             bool exist = await _userRepository!.ExistAsync(1);
             Assert.IsTrue(exist);
         }
+
+        [TestMethod]
+        public async Task TestCountAsync()
+        {
+            Assert.IsTrue(await _userRepository!.CountAsync() > 0);
+        }
     }
 }

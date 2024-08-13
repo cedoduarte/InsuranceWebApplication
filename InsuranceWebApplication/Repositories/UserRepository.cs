@@ -9,9 +9,10 @@ namespace InsuranceWebApplication.Repositories
         Task<User?> UpdateAsync(User user, CancellationToken cancel = default);
         Task<User?> DeleteAsync(int id, CancellationToken cancel = default);
         Task<User?> GetByIdAsync(int id, CancellationToken cancel = default);
-        Task<List<User>> GetAllAsync(CancellationToken cancel = default);
-        Task<List<User>> GetByKeywordAsync(string keyword, CancellationToken cancel = default);
+        Task<List<User>> GetAllAsync(int pageNumber = 1, int pageSize = 10, CancellationToken cancel = default);
+        Task<List<User>> GetByKeywordAsync(string keyword, int pageNumber = 1, int pageSize = 10, CancellationToken cancel = default);
         Task<bool> ExistAsync(int id, CancellationToken cancel = default);
+        Task<int> CountAsync(CancellationToken cancel = default);
     }
 
     public class UserRepository : IUserRepository
@@ -58,15 +59,17 @@ namespace InsuranceWebApplication.Repositories
                 .FirstOrDefaultAsync(cancel);
         }
 
-        public async Task<List<User>> GetAllAsync(CancellationToken cancel)
+        public async Task<List<User>> GetAllAsync(int pageNumber, int pageSize, CancellationToken cancel)
         {
             return await _dbContext.Users!
                 .Where(u => !u.IsDeleted)
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
                 .AsNoTracking()
                 .ToListAsync(cancel);
         }
 
-        public async Task<List<User>> GetByKeywordAsync(string keyword, CancellationToken cancel)
+        public async Task<List<User>> GetByKeywordAsync(string keyword, int pageNumber, int pageSize, CancellationToken cancel)
         {
             return await _dbContext.Users!
                 .Where(u => !u.IsDeleted 
@@ -74,6 +77,8 @@ namespace InsuranceWebApplication.Repositories
                     || u.FirstName!.Contains(keyword)
                     || u.LastName!.Contains(keyword)
                     || u.Email!.Contains(keyword)))
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
                 .AsNoTracking()
                 .ToListAsync(cancel);
         }
@@ -82,6 +87,11 @@ namespace InsuranceWebApplication.Repositories
         {
             User? user = await _dbContext.Users!.FindAsync(id, cancel);
             return user is not null;
+        }
+
+        public async Task<int> CountAsync(CancellationToken cancel)
+        {
+            return await _dbContext.Users!.CountAsync(cancel);
         }
     }
 }
