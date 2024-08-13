@@ -113,5 +113,13 @@ namespace Test
         {
             Assert.IsTrue(await _userRepository!.CountAsync() > 0);
         }
+
+        [TestMethod]
+        public async Task TestAuthenticateAsync()
+        {
+            string email = "carlosduarte.1@hotmail.com";
+            string password = "12345";
+            Assert.IsTrue(await _userRepository!.AuthenticateAsync(email, password));
+        }
     }
 }

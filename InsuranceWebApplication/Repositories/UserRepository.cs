@@ -13,6 +13,7 @@ namespace InsuranceWebApplication.Repositories
         Task<List<User>> GetByKeywordAsync(string keyword, int pageNumber = 1, int pageSize = 10, CancellationToken cancel = default);
         Task<bool> ExistAsync(int id, CancellationToken cancel = default);
         Task<int> CountAsync(CancellationToken cancel = default);
+        Task<bool> AuthenticateAsync(string email, string passwordHash, CancellationToken cancel = default);
     }
 
     public class UserRepository : IUserRepository
@@ -92,6 +93,18 @@ namespace InsuranceWebApplication.Repositories
         public async Task<int> CountAsync(CancellationToken cancel)
         {
             return await _dbContext.Users!.CountAsync(cancel);
+        }
+
+        public async Task<bool> AuthenticateAsync(string email, string passwordHash, CancellationToken cancel)
+        {
+            User? user = await _dbContext.Users!
+                .Where(
+                    u => !u.IsDeleted
+                    && string.Equals(u.Email, email)
+                    && string.Equals(u.PasswordHash, passwordHash))
+                .AsNoTracking()
+                .FirstOrDefaultAsync(cancel);
+            return user is not null;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using InsuranceWebApplication.CQRS.Users.Command.CreateUser;
+﻿using InsuranceWebApplication.CQRS.Users.Command.AuthenticateUser;
+using InsuranceWebApplication.CQRS.Users.Command.CreateUser;
 using InsuranceWebApplication.CQRS.Users.Command.UpdateUser;
 using InsuranceWebApplication.CQRS.Users.Query.GetUserList;
 using InsuranceWebApplication.Services;
@@ -75,6 +76,19 @@ namespace InsuranceWebApplication.Controllers
             try
             {
                 return Ok(await _userService.GetListAsync(query));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("authenticate")]
+        public async Task<IActionResult> Authenticate(AuthenticateUserCommand command)
+        {
+            try
+            {
+                return Ok(await _userService.AuthenticateAsync(command));
             }
             catch (Exception ex)
             {

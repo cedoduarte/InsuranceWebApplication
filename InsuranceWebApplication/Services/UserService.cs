@@ -1,4 +1,5 @@
-﻿using InsuranceWebApplication.CQRS.Users.Command.CreateUser;
+﻿using InsuranceWebApplication.CQRS.Users.Command.AuthenticateUser;
+using InsuranceWebApplication.CQRS.Users.Command.CreateUser;
 using InsuranceWebApplication.CQRS.Users.Command.DeleteUser;
 using InsuranceWebApplication.CQRS.Users.Command.UpdateUser;
 using InsuranceWebApplication.CQRS.Users.Query.GetUserById;
@@ -16,6 +17,7 @@ namespace InsuranceWebApplication.Services
         Task<UserViewModel?> DeleteAsync(int id);
         Task<UserViewModel?> GetByIdAsync(int id);
         Task<UserListResultDto> GetListAsync(GetUserListQuery query);
+        Task<UserAuthenticationResultDto> AuthenticateAsync(AuthenticateUserCommand command);
     }
 
     public class UserService : IUserService
@@ -50,6 +52,11 @@ namespace InsuranceWebApplication.Services
         public async Task<UserListResultDto> GetListAsync(GetUserListQuery query)
         {
             return await _mediator.Send(query);
+        }
+
+        public async Task<UserAuthenticationResultDto> AuthenticateAsync(AuthenticateUserCommand command)
+        {
+            return await _mediator.Send(command);
         }
     }
 }
