@@ -32,7 +32,7 @@ namespace InsuranceWebApplication.CQRS.Cars.Command.CreateCar
                 StringBuilder builder = new StringBuilder();
                 foreach (string error in _validator.Errors)
                 {
-                    builder.AppendLine(error);
+                    builder.AppendLine($"{error}</br>");
                 }
                 throw new Exception(builder.ToString());
             }

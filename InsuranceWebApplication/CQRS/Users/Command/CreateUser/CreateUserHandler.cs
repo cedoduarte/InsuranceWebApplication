@@ -33,7 +33,7 @@ namespace InsuranceWebApplication.CQRS.Users.Command.CreateUser
                 StringBuilder builder = new StringBuilder();
                 foreach (string error in _validator.Errors)
                 {
-                    builder.AppendLine(error);
+                    builder.AppendLine($"{error}</br>");
                 }
                 throw new Exception(builder.ToString());
             }

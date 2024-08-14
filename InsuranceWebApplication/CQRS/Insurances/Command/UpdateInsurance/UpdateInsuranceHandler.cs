@@ -32,7 +32,7 @@ namespace InsuranceWebApplication.CQRS.Insurances.Command.UpdateInsurance
                 StringBuilder builder = new StringBuilder();
                 foreach (string error in _validator.Errors)
                 {
-                    builder.AppendLine(error);
+                    builder.AppendLine($"{error}</br>");
                 }
                 throw new Exception(builder.ToString());
             }
