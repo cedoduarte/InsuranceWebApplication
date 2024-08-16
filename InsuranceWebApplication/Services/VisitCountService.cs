@@ -22,7 +22,7 @@ namespace InsuranceWebApplication.Services
         {
             int count = 0;
             var visitCount = await _dbContext.VisitCount!
-                .AsTracking()
+                .AsNoTracking()
                 .FirstOrDefaultAsync(cancel);
             if (visitCount is not null)
             {

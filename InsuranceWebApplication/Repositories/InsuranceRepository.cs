@@ -105,7 +105,7 @@ namespace InsuranceWebApplication.Repositories
 
         public async Task<int> CountAsync(CancellationToken cancel)
         {
-            return await _dbContext.Insurances!.CountAsync(cancel);
+            return await _dbContext.Insurances!.AsNoTracking().CountAsync(cancel);
         }
     }
 }

@@ -92,7 +92,7 @@ namespace InsuranceWebApplication.Repositories
 
         public async Task<int> CountAsync(CancellationToken cancel)
         {
-            return await _dbContext.Users!.CountAsync(cancel);
+            return await _dbContext.Users!.AsNoTracking().CountAsync(cancel);
         }
     }
 }
