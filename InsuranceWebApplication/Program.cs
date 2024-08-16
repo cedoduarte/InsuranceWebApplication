@@ -42,6 +42,7 @@ namespace InsuranceWebApplication
             builder.Services.AddTransient<IUserService, UserService>();
             builder.Services.AddTransient<ICarService, CarService>();
             builder.Services.AddTransient<IInsuranceService, InsuranceService>();
+            builder.Services.AddTransient<IVisitCountService, VisitCountService>();
             builder.Services.AddTransient<IUserRepository, UserRepository>();
             builder.Services.AddTransient<ICarRepository, CarRepository>();
             builder.Services.AddTransient<IInsuranceRepository, InsuranceRepository>();
