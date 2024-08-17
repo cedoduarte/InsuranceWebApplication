@@ -12,10 +12,12 @@ namespace InsuranceWebApplication.Controllers
     public class UserController : Controller
     {
         private readonly IUserService _userService;
+        private readonly IUserExcelFileService _userExcelFileService;
 
-        public UserController(IUserService userService)
+        public UserController(IUserService userService, IUserExcelFileService userExcelFileService)
         {
             _userService = userService;
+            _userExcelFileService = userExcelFileService;
         }
 
         [HttpPost("create")]
@@ -76,6 +78,20 @@ namespace InsuranceWebApplication.Controllers
             try
             {
                 return Ok(await _userService.GetListAsync(query));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("excel")]
+        public async Task<IActionResult> GetUserExcelFile([FromQuery] GetUserListQuery query)
+        {
+            try
+            {
+                var file = await _userExcelFileService.GetFileAsync(query);
+                return File(file.Bytes!, file.AcceptHeader!, file.FileName);
             }
             catch (Exception ex)
             {
