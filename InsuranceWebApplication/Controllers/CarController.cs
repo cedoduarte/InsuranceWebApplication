@@ -11,10 +11,12 @@ namespace InsuranceWebApplication.Controllers
     public class CarController : Controller
     {
         private readonly ICarService _carService;
+        private readonly ICarExcelFileService _carExcelFileService;
 
-        public CarController(ICarService carService)
+        public CarController(ICarService carService, ICarExcelFileService carExcelFileService)
         {
             _carService = carService;
+            _carExcelFileService = carExcelFileService;
         }
 
         [HttpPost("create")]
@@ -75,6 +77,20 @@ namespace InsuranceWebApplication.Controllers
             try
             {
                 return Ok(await _carService.GetListAsync(query));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("excel")]
+        public async Task<IActionResult> GetCarExcelFile([FromQuery] GetCarListQuery query)
+        {
+            try
+            {
+                var file = await _carExcelFileService.GetFileAsync(query);
+                return File(file.Bytes!, file.AcceptHeader!, file.FileName);
             }
             catch (Exception ex)
             {
