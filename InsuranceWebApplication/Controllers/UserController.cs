@@ -2,8 +2,10 @@
 using InsuranceWebApplication.CQRS.Users.Command.CreateUser;
 using InsuranceWebApplication.CQRS.Users.Command.UpdateUser;
 using InsuranceWebApplication.CQRS.Users.Query.GetUserList;
+using InsuranceWebApplication.Dtos;
 using InsuranceWebApplication.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace InsuranceWebApplication.Controllers
 {
@@ -13,6 +15,7 @@ namespace InsuranceWebApplication.Controllers
     {
         private readonly IUserService _userService;
         private readonly IUserExcelFileService _userExcelFileService;
+        
 
         public UserController(IUserService userService, IUserExcelFileService userExcelFileService)
         {

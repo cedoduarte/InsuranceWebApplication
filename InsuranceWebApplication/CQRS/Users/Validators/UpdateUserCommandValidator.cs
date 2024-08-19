@@ -35,6 +35,10 @@ namespace InsuranceWebApplication.CQRS.Users.Validators
             {
                 Errors.Add("The password is empty");
             }
+            if (!Util.IsPasswordSecure(command.Password!))
+            {
+                Errors.Add("The password is insecure");
+            }
             if (string.IsNullOrEmpty(command.ConfirmedPassword))
             {
                 Errors.Add("The confirmed password is empty");

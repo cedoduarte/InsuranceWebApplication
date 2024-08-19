@@ -64,6 +64,7 @@ namespace InsuranceWebApplication.Repositories
         {
             return await _dbContext.Users!
                 .Where(u => !u.IsDeleted)
+                .OrderBy(u => u.Id)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .AsNoTracking()
@@ -78,6 +79,7 @@ namespace InsuranceWebApplication.Repositories
                     || u.FirstName!.Contains(keyword)
                     || u.LastName!.Contains(keyword)
                     || u.Email!.Contains(keyword)))
+                .OrderBy(u => u.Id)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .AsNoTracking()

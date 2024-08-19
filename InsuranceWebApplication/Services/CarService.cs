@@ -6,6 +6,7 @@ using InsuranceWebApplication.CQRS.Cars.Query.GetCarList;
 using InsuranceWebApplication.CQRS.Cars.ViewModel;
 using InsuranceWebApplication.Dtos;
 using MediatR;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace InsuranceWebApplication.Services
 {
@@ -21,10 +22,12 @@ namespace InsuranceWebApplication.Services
     public class CarService : ICarService
     {
         private readonly IMediator _mediator;
+        private readonly IMemoryCache _memoryCache;
 
-        public CarService(IMediator mediator)
+        public CarService(IMediator mediator, IMemoryCache memoryCache)
         {
             _mediator = mediator;
+            _memoryCache = memoryCache;
         }
 
         public async Task<CarViewModel?> CreateAsync(CreateCarCommand command)
@@ -49,7 +52,17 @@ namespace InsuranceWebApplication.Services
 
         public async Task<CarListResultDto> GetListAsync(GetCarListQuery query)
         {
-            return await _mediator.Send(query);
+            CarListResultDto result;
+            string cacheKey = $"CarsCacheKey{query.PageNumber}";
+            if (!_memoryCache.TryGetValue(cacheKey, out result!))
+            {
+                result = await _mediator.Send(query);
+                var cacheEntryOptions = new MemoryCacheEntryOptions()
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(2))
+                    .SetAbsoluteExpiration(TimeSpan.FromMinutes(5));
+                _memoryCache.Set(cacheKey, result, cacheEntryOptions);
+            }
+            return result;
         }
     }
 }

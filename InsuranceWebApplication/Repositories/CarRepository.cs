@@ -63,6 +63,7 @@ namespace InsuranceWebApplication.Repositories
         {
             return await _dbContext.Cars!
                 .Where(c => !c.IsDeleted)
+                .OrderBy(c => c.Id)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .AsNoTracking()
@@ -78,6 +79,7 @@ namespace InsuranceWebApplication.Repositories
                     || c.Color!.Contains(keyword)
                     || c.Price!.ToString()!.Contains(keyword)
                     || c.PlateNumber!.Contains(keyword)))
+                .OrderBy(c => c.Id)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .AsNoTracking()

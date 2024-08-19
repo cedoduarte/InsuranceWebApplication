@@ -12,6 +12,40 @@ namespace InsuranceWebApplication.Utils
             return Regex.IsMatch(hexColor, pattern);
         }
 
+        public static bool IsPasswordSecure(string password)
+        {
+            // Minimum length requirement
+            if (password.Length < 8)
+            {
+                return false;
+            }
+
+            // Check for uppercase letter
+            if (!Regex.IsMatch(password, "[A-Z]"))
+            {
+                return false;
+            }
+
+            // Check for lowercase letter
+            if (!Regex.IsMatch(password, "[a-z]"))
+            {
+                return false;
+            }
+
+            // Check for digit
+            if (!Regex.IsMatch(password, @"\d"))
+            {
+                return false;
+            }
+
+            // Check for special character
+            if (!Regex.IsMatch(password, @"[\W_]"))
+            {
+                return false;
+            }
+            return true;
+        }
+
         public static bool IsValidEmail(string email)
         {
             try
