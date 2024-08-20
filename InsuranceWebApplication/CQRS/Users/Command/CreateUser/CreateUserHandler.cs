@@ -42,6 +42,7 @@ namespace InsuranceWebApplication.CQRS.Users.Command.CreateUser
                 FirstName = command.FirstName!.Trim(),
                 LastName = command.LastName!.Trim(),
                 Email = command.Email!.Trim(),
+                Birthdate = command.Birthdate,
                 PasswordHash = Util.ToSha256(command.Password!.Trim()!)
             };
             User? result = await _unitOfWork.UserRepository.CreateAsync(user, cancel);

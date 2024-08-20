@@ -11,6 +11,7 @@ namespace InsuranceWebApplication.Models.Configurations
             builder.Property(u => u.LastName).IsRequired().HasColumnType("NVARCHAR(256)");
             builder.Property(u => u.Email).IsRequired().HasColumnType("NVARCHAR(254)");
             builder.Property(u => u.PasswordHash).IsRequired().HasColumnType("NVARCHAR(256)");
+            builder.Property(u => u.Birthdate).IsRequired().HasColumnType("DATETIME2");
             builder.Property(u => u.LastModified).IsRequired().HasColumnType("DATETIME2");
             builder.Property(u => u.IsDeleted).IsRequired().HasColumnType("BIT");
             builder.Property(u => u.LastDeleted).IsRequired().HasColumnType("DATETIME2");

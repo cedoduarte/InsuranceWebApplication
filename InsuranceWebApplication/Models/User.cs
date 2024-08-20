@@ -9,6 +9,7 @@ namespace InsuranceWebApplication.Models
         public string? LastName { get; set; }
         public string? Email { get; set; }
         public string? PasswordHash { get; set; }
+        public DateTime? Birthdate { get; set; }
         public DateTime? LastModified { get; set; } = DateTime.UtcNow;
         public bool IsDeleted { get; set; } = false;
         public DateTime? LastDeleted { get; set; } = DateTime.UtcNow;

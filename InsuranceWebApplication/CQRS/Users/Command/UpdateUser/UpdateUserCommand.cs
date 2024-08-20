@@ -11,5 +11,6 @@ namespace InsuranceWebApplication.CQRS.Users.Command.UpdateUser
         public string? Email { get; set; }
         public string? Password { get; set; }
         public string? ConfirmedPassword { get; set; }
+        public DateTime? Birthdate { get; set; }
     }
 }

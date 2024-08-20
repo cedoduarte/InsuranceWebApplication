@@ -15,6 +15,7 @@ namespace InsuranceWebApplication.AutoMapperProfile
                 .ForMember(a => a.FirstName, b => b.MapFrom(c => c.FirstName))
                 .ForMember(a => a.LastName, b => b.MapFrom(c => c.LastName))
                 .ForMember(a => a.Email, b => b.MapFrom(c => c.Email))
+                .ForMember(a => a.Birthdate, b => b.MapFrom(c => c.Birthdate))
                 .ForMember(a => a.LastModified, b => b.MapFrom(c => c.LastModified))
                 .ForMember(a => a.IsDeleted, b => b.MapFrom(c => c.IsDeleted))
                 .ForMember(a => a.LastDeleted, b => b.MapFrom(c => c.LastDeleted))
