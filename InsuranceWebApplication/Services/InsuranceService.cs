@@ -52,15 +52,25 @@ namespace InsuranceWebApplication.Services
 
         public async Task<InsuranceListResultDto> GetListAsync(GetInsuranceListQuery query)
         {
-            InsuranceListResultDto result;
+            InsuranceListResultDto? result = null;
             string cacheKey = $"InsurancesCacheKey{query.PageNumber}";
-            if (!_memoryCache.TryGetValue(cacheKey, out result!))
-            {
-                result = await _mediator.Send(query);
-                var cacheEntryOptions = new MemoryCacheEntryOptions()
+            var cacheEntryOptions = new MemoryCacheEntryOptions()
                     .SetSlidingExpiration(TimeSpan.FromMinutes(2))
                     .SetAbsoluteExpiration(TimeSpan.FromMinutes(5));
+            if (query.ResetCache)
+            {
+                // retrieves data from database and reset cache
+                result = await _mediator.Send(query);
                 _memoryCache.Set(cacheKey, result, cacheEntryOptions);
+            }
+            else
+            {
+                // retrieves data from cache
+                if (!_memoryCache.TryGetValue(cacheKey, out result!))
+                {
+                    result = await _mediator.Send(query);
+                    _memoryCache.Set(cacheKey, result, cacheEntryOptions);
+                }
             }
             return result;
         }

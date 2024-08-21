@@ -9,5 +9,6 @@ namespace InsuranceWebApplication.CQRS.Cars.Query.GetCarList
         public bool GetAll { get; set; }
         public int PageNumber { get; set; }
         public int PageSize { get; set; }
+        public bool ResetCache { get; set; }
     }
 }

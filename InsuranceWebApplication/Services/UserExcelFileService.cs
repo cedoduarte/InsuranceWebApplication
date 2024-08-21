@@ -31,8 +31,9 @@ namespace InsuranceWebApplication.Services
                 row.CreateCell(1).SetCellValue("First name");
                 row.CreateCell(2).SetCellValue("Last name");
                 row.CreateCell(3).SetCellValue("Email");
-                row.CreateCell(4).SetCellValue("Last modified");
-                row.CreateCell(5).SetCellValue("Last created");
+                row.CreateCell(4).SetCellValue("Birthdate");
+                row.CreateCell(5).SetCellValue("Last modified");
+                row.CreateCell(6).SetCellValue("Last created");
                 for (int iUser = 0; iUser < content.UserList!.Count; iUser++)
                 {
                     ++iRow;
@@ -41,8 +42,9 @@ namespace InsuranceWebApplication.Services
                     row.CreateCell(1).SetCellValue(content.UserList![iUser].FirstName);
                     row.CreateCell(2).SetCellValue(content.UserList![iUser].LastName);
                     row.CreateCell(3).SetCellValue(content.UserList![iUser].Email);
-                    row.CreateCell(4).SetCellValue(content.UserList![iUser].LastModified.ToString());
-                    row.CreateCell(5).SetCellValue(content.UserList![iUser].LastCreated.ToString());
+                    row.CreateCell(4).SetCellValue(content.UserList![iUser].Birthdate.ToString());
+                    row.CreateCell(5).SetCellValue(content.UserList![iUser].LastModified.ToString());
+                    row.CreateCell(6).SetCellValue(content.UserList![iUser].LastCreated.ToString());
                 }
                 using (var fileStream = new FileStream(temporaryFilePath, FileMode.Create, FileAccess.Write))
                 {
