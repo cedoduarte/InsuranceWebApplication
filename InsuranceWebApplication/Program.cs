@@ -56,6 +56,7 @@ namespace InsuranceWebApplication
             builder.Services.AddTransient<IUpdateInsuranceCommandValidator, UpdateInsuranceCommandValidator>();
             builder.Services.AddTransient<IUserExcelFileService, UserExcelFileService>();
             builder.Services.AddTransient<ICarExcelFileService, CarExcelFileService>();
+            builder.Services.AddTransient<IInsuranceExcelFileService, InsuranceExcelFileService>();
 
             builder.Services.AddSingleton(new MapperConfiguration(configuration =>
             {

@@ -36,7 +36,7 @@ namespace InsuranceWebApplication.Services
                 row.CreateCell(6).SetCellValue("Last created");
                 for (int iUser = 0; iUser < content.UserList!.Count; iUser++)
                 {
-                    ++iRow;
+                    iRow++;
                     row = sheet.CreateRow(iRow);
                     row.CreateCell(0).SetCellValue(content.UserList![iUser].Id);
                     row.CreateCell(1).SetCellValue(content.UserList![iUser].FirstName);

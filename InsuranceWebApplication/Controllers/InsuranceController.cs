@@ -11,10 +11,12 @@ namespace InsuranceWebApplication.Controllers
     public class InsuranceController : Controller
     {
         private readonly IInsuranceService _insuranceService;
+        private readonly IInsuranceExcelFileService _insuranceExcelFileService;
 
-        public InsuranceController(IInsuranceService insuranceService)
+        public InsuranceController(IInsuranceService insuranceService, IInsuranceExcelFileService insuranceExcelFileService)
         {
             _insuranceService = insuranceService;
+            _insuranceExcelFileService = insuranceExcelFileService;
         }
 
         [HttpPost("create")]
@@ -75,6 +77,20 @@ namespace InsuranceWebApplication.Controllers
             try
             {
                 return Ok(await _insuranceService.GetListAsync(query));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("excel")]
+        public async Task<IActionResult> GetInsuranceExcelFile([FromQuery] GetInsuranceListQuery query)
+        {
+            try
+            {
+                var file = await _insuranceExcelFileService.GetFileAsync(query);
+                return File(file.Bytes!, file.AcceptHeader!, file.FileName);
             }
             catch (Exception ex)
             {
