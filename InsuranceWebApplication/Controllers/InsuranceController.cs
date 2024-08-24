@@ -76,7 +76,12 @@ namespace InsuranceWebApplication.Controllers
         {
             try
             {
-                return Ok(await _insuranceService.GetListAsync(query));
+                var insurances = await _insuranceService.GetListAsync(query);
+                if (insurances.TotalCount > 0)
+                {
+                    return Ok(insurances);
+                }
+                return NotFound();
             }
             catch (Exception ex)
             {

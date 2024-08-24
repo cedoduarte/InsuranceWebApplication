@@ -21,6 +21,10 @@ namespace InsuranceWebApplication.Services
         public async Task<ExcelFile> GetFileAsync(GetInsuranceListQuery query)
         {
             var content = await _insuranceService.GetListAsync(query);
+            if (content.TotalCount == 0)
+            {
+                throw new Exception("There is not content");
+            }
             string temporaryFilePath = Path.GetTempFileName();
             temporaryFilePath = Path.ChangeExtension(temporaryFilePath, ".xlsx");
             using (var workbook = new NPOI.XSSF.UserModel.XSSFWorkbook())
